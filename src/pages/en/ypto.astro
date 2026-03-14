@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('ypto.meta.title', lang)}
+  description={t('ypto.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/ypto"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('ypto.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/ypto-banner.png" alt="" /></span>
+        <p><strong>Senior Software Developer – Railway Operations Platform (2025–Present)</strong></p>
+        <p>At YPTO, I work on EShuning, a railway management system used to support operational and service-oriented workflows within the Belgian railway ecosystem.</p>
+        <p>In this role I:</p>
+        <ul>
+          <li>Improved the performance and usability of the railway management platform, focusing on maintainability and end-user efficiency.</li>
+          <li>Led end-to-end development of the train washing feature, from functional design through implementation and delivery.</li>
+          <li>Managed and evolved APIs, collaborating closely with backend teams to optimize system integrations and data flows.</li>
+          <li>Oversaw mobile-oriented design, ensuring consistent behavior, responsiveness, and usability across all devices.</li>
+          <li>Actively contributed to modern development practices, leveraging AI-assisted tools to improve productivity and code quality.</li>
+        </ul>
+        <p>The solution is built using C# (.NET 9), Blazor, MudBlazor, xUnit, Azure API Management, and Azure DevOps, with Jira and Confluence for project coordination. Daily development is supported by GitHub Copilot, ChatGPT, and Claude Code, enabling faster iteration and higher-quality delivery in a complex enterprise environment.</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

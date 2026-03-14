@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('inami.meta.title', lang)}
+  description={t('inami.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/inami"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('inami.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/inami-banner.jpg" alt="" /></span>
+        <p>Chez INAMI, j'ai contribué au développement de Practice Register, une plateforme à grande échelle conçue pour gérer les carrières, l'accréditation et les données professionnelles des travailleurs de santé au niveau national.</p>
+        <p>Dans ce rôle j'ai :</p>
+        <ul>
+          <li>Contribué à la création d'une plateforme à fort volume et mission-critique utilisée par les professionnels de santé et les institutions publiques.</li>
+          <li>Conçu et optimisé l'architecture de base de données, améliorant l'efficacité de l'équipe base de données de 30% grâce à des modèles de données plus clairs et des améliorations de performance.</li>
+          <li>Travaillé en étroite collaboration avec les designers UX/UI, rationalisant les workflows de collaboration et réduisant l'effort lié au design de 50%, tout en assurant une interface cohérente et conviviale.</li>
+          <li>Contribué activement à la qualité du code et à la fiabilité grâce aux tests automatisés et aux pratiques de développement modernes.</li>
+        </ul>
+        <p>La plateforme a été construite en utilisant C# (.NET 6), Blazor WebAssembly, Entity Framework, SQL, Keycloak pour l'authentification, xUnit pour les tests et les composants UI Telerik, dans le respect des contraintes et des standards de qualité du secteur de la santé et du secteur public.</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

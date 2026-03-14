@@ -1,0 +1,15 @@
+# robots.txt for Kajoble
+# https://kajoble.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow specific directories if needed (e.g., admin, private files)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://kajoble.com/sitemap.xml
+
+# Crawl-delay (optional, if you want to limit crawler speed)
+# Crawl-delay: 10

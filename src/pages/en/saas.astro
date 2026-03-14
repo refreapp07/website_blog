@@ -1,0 +1,172 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('saas.meta.title', lang)}
+  description={t('saas.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/saas"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('saas.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('saas.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.intro.title', lang)}</h2>
+        </header>
+        <p>{t('saas.intro.p1', lang)}</p>
+        <p>{t('saas.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-net.jpg" alt="Full-Stack Web Development" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Full-Stack Web Development with .NET</h3></header>
+            <p>I specialize in ASP.NET Core for building robust backend systems, combining RESTful APIs, microservices architecture, and modern authentication patterns. The frontend leverages Blazor for C#-based SPAs, React for complex UIs, or traditional MVC patterns depending on project requirements.</p>
+            <p>This full-stack approach ensures seamless frontend-backend integration, consistent architecture throughout the application stack, and efficient development cycles.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-saas.png" alt="SaaS Platform Architecture" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>SaaS Platform Architecture & Multi-Tenancy</h3></header>
+            <p>Building SaaS applications requires careful architectural decisions around multi-tenancy, data isolation, subscription management, and scalability. I design and implement SaaS platforms with tenant isolation strategies (database-per-tenant or schema-per-tenant), subscription and billing integration, role-based access control at scale, and API usage tracking and rate limiting.</p>
+            <p>The result is SaaS platforms that can onboard new customers seamlessly, scale with demand, and maintain strict data isolation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-cloud.png" alt="Cloud-Native Web Applications" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Cloud-Native Web Applications</h3></header>
+            <p>Modern web applications benefit from cloud infrastructure for scalability, reliability, and global reach. I build cloud-native applications leveraging Azure App Services, Azure SQL Database, Azure Functions for serverless operations, Azure Storage and CDN for media and static assets, and Azure DevOps for CI/CD pipelines.</p>
+            <p>This cloud-first approach enables automatic scaling under load, geographic distribution for low latency, and cost-effective infrastructure management.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-performance-metrics.jpg" alt="Web Performance & Security" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Web Performance & Security Best Practices</h3></header>
+            <p>A web application's success depends on both performance and security. I implement comprehensive performance optimization including server-side caching strategies, database query optimization and indexing, frontend asset optimization and lazy loading, and API response time monitoring. Security measures include OWASP Top 10 mitigation, authentication and authorization best practices (OAuth 2.0, OpenID Connect), SQL injection and XSS prevention, and HTTPS/TLS configuration.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section id="portfolio">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.portfolio.title', lang)}</h2>
+        </header>
+        <p>{t('saas.portfolio.subtitle', lang)}</p>
+
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/01-sch.jpg" alt="Schwarzline" />
+                <h4>Schwarzline.com</h4>
+                <p>Tire shop - Complete e-commerce site with inventory management</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/02-daedalus.jpg" alt="Daedalus Engineering" />
+                <h4>Daedalus Engineering</h4>
+                <p>Engineering consultancy - Corporate site with service showcase</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/03-tshouly.jpg" alt="Tshouly Concept" />
+                <h4>Tshouly Concept</h4>
+                <p>Personal & business coaching - Service-oriented site with booking</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/04-sd.jpg" alt="S&D Tech" />
+                <h4>S&D Tech</h4>
+                <p>Machining company - Industrial services site with portfolio</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/05-could.jpg" alt="CloudPix" />
+                <h4>CloudPix.be</h4>
+                <p>Drone photography - Visual portfolio with gallery</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/06-jl.jpg" alt="Carrefour Express" />
+                <h4>Carrefour Express Liège</h4>
+                <p>Grocery store - Local commerce site with location information</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 2em;"><strong>Technologies:</strong> ASP.NET Core, Blazor, HTML5/CSS3, JavaScript, React, MVC architecture, Entity Framework, SQL Server, Azure App Services, responsive design, RESTful APIs, and modern web development best practices.</p>
+      </div>
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.production.title', lang)}</h2>
+        </header>
+        <p>Building performant web applications and SaaS platforms requires more than code — it demands careful architecture, scalability planning, and production readiness. My engineering-first approach ensures that every project is built to last.</p>
+        <ul>
+          <li><strong>Scalable Architecture:</strong> Designed to grow from MVP to enterprise scale</li>
+          <li><strong>Cloud-Native Infrastructure:</strong> Leveraging Azure for reliability and global reach</li>
+          <li><strong>Security First:</strong> OWASP compliance, secure authentication, data protection</li>
+          <li><strong>Optimized Performance:</strong> Fast load times, efficient APIs, responsive UX</li>
+          <li><strong>DevOps & CI/CD:</strong> Automated testing, deployment, and monitoring</li>
+        </ul>
+        <p>Whether you need a custom web application, a SaaS platform, or legacy system modernization, I bring proven expertise to deliver web solutions that create real business value.</p>
+        <ul class="actions">
+          <li><a href="/en/#contact" class="button next">{t('saas.production.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

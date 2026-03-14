@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('elia.meta.title', lang)}
+  description={t('elia.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/elia"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('elia.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/elia-banner.webp" alt="" /></span>
+        <p>At ELIA, I worked on GreenTracking, a strategic software initiative designed to track and manage green certificates within one of Belgium's leading energy companies.</p>
+        <p>In this role I:</p>
+        <ul>
+          <li>Collaborated closely with a program manager to successfully launch a new software solution from concept to production.</li>
+          <li>Designed and implemented a new user interface, with a strong focus on ergonomics, clarity, and usability for business and operational users.</li>
+          <li>Contributed to the overall system architecture, ensuring scalability, reliability, and maintainability in a critical production environment.</li>
+          <li>Integrated asynchronous processing and messaging to support background tasks and data workflows.</li>
+        </ul>
+        <p>The solution was developed using C# (.NET 5 / .NET 6), Blazor, Entity Framework, SQL, NSwagger, Highcharts, Hangfire, Task Scheduler, and RabbitMQ, leveraging modern .NET practices to deliver a robust, user-friendly energy sector application.</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

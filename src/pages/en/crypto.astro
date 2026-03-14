@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('crypto.meta.title', lang)}
+  description={t('crypto.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/crypto"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('crypto.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('crypto.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('crypto.intro.title', lang)}</h2>
+        </header>
+        <p>{t('crypto.intro.p1', lang)}</p>
+        <p>{t('crypto.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/crypto-defi.png" alt="DeFi Protocols & Strategic Advisory" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>DeFi Protocols & Strategic Advisory</h3></header>
+            <p>I have advised and supported multiple crypto and DeFi initiatives over the years, helping teams understand and implement decentralized financial mechanisms with rigor and responsibility.</p>
+            <p>This includes guidance on liquidity pools, staking mechanisms, governance tokens, and decentralized autonomous organizations (DAOs). My approach combines technical architecture with practical operational considerations, ensuring that systems are both theoretically sound and practically viable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/crypto-nft.jpg" alt="NFT Project - African Heroes" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>NFT Project: African Heroes</h3></header>
+            <p>I designed and launched an NFT project centered on African heroes, combining cultural storytelling with blockchain technology. This project covered the complete lifecycle from concept to community governance.</p>
+            <ul>
+              <li><strong>Concept & Narrative Design:</strong> Cultural research and storytelling framework</li>
+              <li><strong>NFT Minting & Strategy:</strong> Technical implementation and launch planning</li>
+              <li><strong>Smart Contract Considerations:</strong> Security, gas optimization, and functionality</li>
+              <li><strong>Community & Governance Alignment:</strong> Building engaged communities aligned with project values</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/crypto-token.jpg" alt="Token Economics & Governance" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Token Economics & Governance Models</h3></header>
+            <p>Beyond project execution, I have provided strategic advisory to teams navigating the complex landscape of token design and decentralized governance.</p>
+            <p>This includes designing coherent token models and incentive structures, navigating technical and operational trade-offs, and aligning decentralized systems with real-world constraints. The goal is always long-term sustainability and genuine value creation, not short-term speculation.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('crypto.bridging.title', lang)}</h2>
+        </header>
+        <p>{t('crypto.bridging.p1', lang)}</p>
+        <p>Key integration areas include:</p>
+        <ul>
+          <li><strong>Smart Contract Integration:</strong> Connecting blockchain systems with traditional enterprise software</li>
+          <li><strong>Hybrid Architectures:</strong> Combining centralized efficiency with decentralized trust and transparency</li>
+          <li><strong>Governance & Compliance:</strong> Designing systems that respect decentralized principles and regulatory realities</li>
+          <li><strong>Security & Risk Management:</strong> Applying enterprise-grade security practices to blockchain systems</li>
+          <li><strong>User Experience:</strong> Making decentralized systems accessible and practical for real users</li>
+        </ul>
+        <p>The future of technology likely involves thoughtful integration of centralized and decentralized systems, not wholesale replacement. My goal is to help navigate this transition responsibly.</p>
+        <ul class="actions">
+          <li><a href="/en/#contact" class="button next">{t('crypto.bridging.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

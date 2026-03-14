@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('lasea.meta.title', lang)}
+  description={t('lasea.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/lasea"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('lasea.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/Lasea-index.jpg" alt="" /></span>
+        <p><span class="image left"><img src="/images/lasea-kyla.png" alt="" /></span>During my time at LASEA, I contributed to enhancing KYLA&reg;, a central software platform used for precise control of industrial laser cutting systems. KYLA&reg; integrates CAD/CAM workflows with real-time laser execution and machine feedback to support complex operations such as cutting, engraving, drilling, and more.</p>
+        <br/><br/>
+        <p>In this role I:</p>
+        <ul>
+          <li>Improved and extended the existing control software that drives laser generation and machine coordination, increasing robustness and usability.</li>
+          <li>Played a key role in implementing a 3D generator component allowing users to create and preview three-dimensional machining models directly within the software.</li>
+          <li>Worked closely with cross-functional teams to ensure seamless integration between the new 3D generation module, machine communication layers, and user interface components.</li>
+          <li>Used C# and WPF throughout the development of performant, maintainable features in a high-precision industrial context.</li>
+        </ul>
+        <p>This work contributed to a more capable and intuitive laser cutting suite that bridges design and actual production with powerful software tools.</p>
+      </div>
+    </section>
+    <section id="two">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('lasea.techStack', lang)}</h2>
+        </header>
+        <p>C#, WPF, WinForms, JSON</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

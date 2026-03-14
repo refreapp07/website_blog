@@ -1,0 +1,172 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('saas.meta.title', lang)}
+  description={t('saas.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/saas"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('saas.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('saas.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.intro.title', lang)}</h2>
+        </header>
+        <p>{t('saas.intro.p1', lang)}</p>
+        <p>{t('saas.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-net.jpg" alt="Développement Web Full-Stack" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Développement Web Full-Stack avec .NET</h3></header>
+            <p>Je me spécialise dans ASP.NET Core pour la création de systèmes backend robustes, combinant les APIs RESTful, l'architecture microservices et les patterns d'authentification modernes. Le frontend exploite Blazor pour les SPAs en C#, React pour les UIs complexes, ou les patterns MVC traditionnels selon les exigences du projet.</p>
+            <p>Cette approche full-stack assure une intégration transparente entre frontend et backend, une architecture cohérente dans toute la stack applicative et des cycles de développement efficaces.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-saas.png" alt="Architecture Plateforme SaaS" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Architecture Plateforme SaaS & Multi-Tenancy</h3></header>
+            <p>La création d'applications SaaS nécessite des décisions architecturales soigneuses sur la multi-tenancy, l'isolation des données, la gestion des abonnements et la scalabilité. Je conçois et implémente des plateformes SaaS avec des stratégies d'isolation des tenants (base de données par tenant ou schéma par tenant), l'intégration des abonnements et de la facturation, le contrôle d'accès basé sur les rôles à grande échelle et le suivi de l'utilisation et la limitation du débit des API.</p>
+            <p>Le résultat est des plateformes SaaS pouvant intégrer de nouveaux clients de manière transparente, évoluer avec la demande et maintenir une isolation stricte des données.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-cloud.png" alt="Applications Web Cloud-Native" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Applications Web Cloud-Native</h3></header>
+            <p>Les applications web modernes bénéficient de l'infrastructure cloud pour la scalabilité, la fiabilité et la portée mondiale. Je construis des applications cloud-native exploitant Azure App Services, Azure SQL Database, Azure Functions pour les opérations serverless, Azure Storage et CDN pour les médias et les actifs statiques, et Azure DevOps pour les pipelines CI/CD.</p>
+            <p>Cette approche cloud-first permet une mise à l'échelle automatique sous charge, une distribution géographique pour une faible latence et une gestion d'infrastructure économique.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/saas-performance-metrics.jpg" alt="Performance Web & Sécurité" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Meilleures Pratiques Performance Web & Sécurité</h3></header>
+            <p>Le succès d'une application web dépend à la fois de la performance et de la sécurité. J'implémente une optimisation complète des performances incluant les stratégies de mise en cache côté serveur, l'optimisation et l'indexation des requêtes de base de données, l'optimisation des actifs frontend et le chargement paresseux, et le monitoring du temps de réponse des API. Les mesures de sécurité incluent la mitigation OWASP Top 10, les meilleures pratiques d'authentification et d'autorisation (OAuth 2.0, OpenID Connect), la prévention des injections SQL et XSS, et la configuration HTTPS/TLS.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section id="portfolio">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.portfolio.title', lang)}</h2>
+        </header>
+        <p>{t('saas.portfolio.subtitle', lang)}</p>
+
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/01-sch.jpg" alt="Schwarzline" />
+                <h4>Schwarzline.com</h4>
+                <p>Magasin de pneus - Site e-commerce complet avec gestion des stocks</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/02-daedalus.jpg" alt="Daedalus Engineering" />
+                <h4>Daedalus Engineering</h4>
+                <p>Cabinet de conseil en ingénierie - Site corporate avec vitrine de services</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/03-tshouly.jpg" alt="Tshouly Concept" />
+                <h4>Tshouly Concept</h4>
+                <p>Coaching personnel & entreprise - Site orienté services avec réservation</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/04-sd.jpg" alt="S&D Tech" />
+                <h4>S&D Tech</h4>
+                <p>Société d'usinage - Site de services industriels avec portfolio</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/05-could.jpg" alt="CloudPix" />
+                <h4>CloudPix.be</h4>
+                <p>Photographie par drone - Portfolio visuel avec galerie</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/06-jl.jpg" alt="Carrefour Express" />
+                <h4>Carrefour Express Liège</h4>
+                <p>Magasin alimentaire - Site commerce local avec informations de localisation</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 2em;"><strong>Technologies :</strong> ASP.NET Core, Blazor, HTML5/CSS3, JavaScript, React, architecture MVC, Entity Framework, SQL Server, Azure App Services, design responsive, APIs RESTful et meilleures pratiques de développement web modernes.</p>
+      </div>
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('saas.production.title', lang)}</h2>
+        </header>
+        <p>Créer des applications web et des plateformes SaaS performantes nécessite plus que du code — cela demande une architecture soigneuse, une planification de la scalabilité et une préparation à la production. Mon approche ingénierie-first garantit que chaque projet est construit pour durer.</p>
+        <ul>
+          <li><strong>Architecture Évolutive :</strong> Conçue pour grandir du MVP à l'échelle entreprise</li>
+          <li><strong>Infrastructure Cloud-Native :</strong> Exploitant Azure pour la fiabilité et la portée mondiale</li>
+          <li><strong>Sécurité First :</strong> Conformité OWASP, authentification sécurisée, protection des données</li>
+          <li><strong>Performance Optimisée :</strong> Temps de chargement rapides, APIs efficaces, UX responsive</li>
+          <li><strong>DevOps & CI/CD :</strong> Tests automatisés, déploiement et monitoring</li>
+        </ul>
+        <p>Que vous ayez besoin d'une application web personnalisée, d'une plateforme SaaS ou d'une modernisation de systèmes legacy, j'apporte une expertise avérée pour livrer des solutions web qui créent de la valeur commerciale.</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('saas.production.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

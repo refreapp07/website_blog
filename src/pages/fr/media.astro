@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('media.meta.title', lang)}
+  description={t('media.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/media"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('media.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('media.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('media.intro.title', lang)}</h2>
+        </header>
+        <p>{t('media.intro.p1', lang)}</p>
+        <p>{t('media.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/media-media.jpg" alt="Production & Montage Vidéo" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Production & Montage Vidéo</h3></header>
+            <p>Je produis et monte des contenus vidéo à l'aide d'outils professionnels tels que CyberLink PowerDirector et DaVinci Resolve, couvrant l'ensemble du workflow des prises de vue brutes à la publication finale.</p>
+            <p>Cela inclut le montage, la correction colorimétrique, l'ajustement sonore, le formatage et l'optimisation pour différents canaux de distribution. Chaque vidéo est conçue pour répondre aux spécifications de la plateforme et aux attentes du public.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-social.jpg" alt="Stratégie de Contenu Multi-Plateforme" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Stratégie de Contenu Multi-Plateforme</h3></header>
+            <p>Je crée et gère du contenu pour les principales plateformes sociales et médiatiques, en adaptant les formats, le rythme et les visuels aux contraintes uniques et aux attentes du public de chaque plateforme :</p>
+            <ul>
+              <li><strong>YouTube :</strong> Contenu vidéo long format et structuré avec optimisation SEO</li>
+              <li><strong>Instagram :</strong> Format court, reels et storytelling visuel pour l'engagement</li>
+              <li><strong>X / Twitter :</strong> Formats médiatiques informatifs et promotionnels pour la portée</li>
+              <li><strong>Snapchat :</strong> Contenu court, dynamique, mobile-first pour les jeunes audiences</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-workflow.png" alt="Workflows de Production Améliorés par l'IA" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Workflows de Production Améliorés par l'IA</h3></header>
+            <p>Cette expérience médiatique est souvent combinée avec mes compétences techniques, IA et d'automatisation, permettant des workflows de production de contenu plus rapides, un branding cohérent sur toutes les plateformes et une optimisation des processus de publication basée sur les données.</p>
+            <p>En appliquant les principes d'ingénierie à la production médiatique, je crée des systèmes reproductibles et évolutifs qui maintiennent la qualité tout en augmentant la vélocité de production. Les outils IA assistent avec la génération de scripts, les suggestions de montage, l'optimisation des miniatures et la planification du contenu.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-ai-workflow.png" alt="Approche Ingénierie des Médias" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Approche Ingénierie des Médias</h3></header>
+            <p>Les médias sont une communication, mais aussi un système qui peut être conçu, automatisé et continuellement amélioré. J'apporte la même rigueur à la production de contenu que j'applique à l'ingénierie logicielle :</p>
+            <ul>
+              <li><strong>Automatisation des Workflows :</strong> Scripts pour les tâches de montage répétitives et les workflows de publication</li>
+              <li><strong>Standards de Qualité :</strong> Branding cohérent, formatage et spécifications techniques</li>
+              <li><strong>Optimisation Basée sur les Données :</strong> Stratégie de contenu éclairée par l'analytique et tests A/B</li>
+              <li><strong>Intégration des Outils :</strong> Connexion des outils de montage, plateformes d'automatisation et canaux de distribution</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('media.system.title', lang)}</h2>
+        </header>
+        <p>Ma combinaison unique de compétences en production médiatique et d'expertise en ingénierie technique me permet de construire des systèmes de contenu qui évoluent :</p>
+        <ul>
+          <li><strong>Cycles de Production Plus Rapides :</strong> Les workflows automatisés réduisent le temps du concept à la publication</li>
+          <li><strong>Branding Cohérent :</strong> Modèles, préréglages et vérifications automatisées de qualité assurent la cohérence de la marque</li>
+          <li><strong>Optimisation Cross-Platform :</strong> Contenu source unique adapté intelligemment pour chaque plateforme</li>
+          <li><strong>Analytique de Performance :</strong> Intégration de données et visualisation pour des décisions de contenu éclairées</li>
+          <li><strong>Infrastructure Évolutive :</strong> Systèmes qui grandissent avec le volume de contenu sans sacrifier la qualité</li>
+        </ul>
+        <p>Que ce soit pour du contenu de marque personnelle, des campagnes client ou des objectifs éducatifs, je combine la narration créative avec l'efficacité ingénierie pour livrer un impact à grande échelle.</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('media.system.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

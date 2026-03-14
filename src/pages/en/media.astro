@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('media.meta.title', lang)}
+  description={t('media.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/media"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('media.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('media.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('media.intro.title', lang)}</h2>
+        </header>
+        <p>{t('media.intro.p1', lang)}</p>
+        <p>{t('media.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/media-media.jpg" alt="Video Production & Editing" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Video Production & Editing</h3></header>
+            <p>I produce and edit video content using professional tools such as CyberLink PowerDirector and DaVinci Resolve, covering the full workflow from raw footage to final publication.</p>
+            <p>This includes editing, color correction, sound adjustment, formatting, and optimization for different distribution channels. Each video is crafted to meet platform specifications and audience expectations, ensuring maximum impact and engagement.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-social.jpg" alt="Multi-Platform Content Strategy" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Multi-Platform Content Strategy</h3></header>
+            <p>I create and manage content for major social and media platforms, adapting formats, pacing, and visuals to each platform's unique constraints and audience expectations:</p>
+            <ul>
+              <li><strong>YouTube:</strong> Long-form and structured video content with SEO optimization</li>
+              <li><strong>Instagram:</strong> Short-form, reels, and visual storytelling for engagement</li>
+              <li><strong>X / Twitter:</strong> Informative and promotional media formats for reach</li>
+              <li><strong>Snapchat:</strong> Short, dynamic, mobile-first content for younger audiences</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-workflow.png" alt="AI-Enhanced Production Workflows" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>AI-Enhanced Production Workflows</h3></header>
+            <p>This media experience is often combined with my technical, AI, and automation skills, enabling faster content production workflows, consistent branding across platforms, and data-driven optimization of publishing processes.</p>
+            <p>By applying engineering principles to media production, I create repeatable, scalable systems that maintain quality while increasing output velocity. AI tools assist with script generation, editing suggestions, thumbnail optimization, and content scheduling.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/media-ai-workflow.png" alt="Engineering Approach to Media" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Engineering Approach to Media</h3></header>
+            <p>Media is communication, but it's also a system that can be engineered, automated, and continuously improved. I bring the same rigor to content production that I apply to software engineering:</p>
+            <ul>
+              <li><strong>Workflow Automation:</strong> Scripting repetitive editing tasks and publishing workflows</li>
+              <li><strong>Quality Standards:</strong> Consistent branding, formatting, and technical specifications</li>
+              <li><strong>Data-Driven Optimization:</strong> Analytics-informed content strategy and A/B testing</li>
+              <li><strong>Tool Integration:</strong> Connecting editing tools, automation platforms, and distribution channels</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('media.system.title', lang)}</h2>
+        </header>
+        <p>My unique combination of media production skills and technical engineering expertise enables me to build content systems that scale:</p>
+        <ul>
+          <li><strong>Faster Production Cycles:</strong> Automated workflows reduce time from concept to publication</li>
+          <li><strong>Consistent Branding:</strong> Templates, presets, and automated quality checks ensure brand consistency</li>
+          <li><strong>Cross-Platform Optimization:</strong> Single source content adapted intelligently for each platform</li>
+          <li><strong>Performance Analytics:</strong> Data integration and visualization for informed content decisions</li>
+          <li><strong>Scalable Infrastructure:</strong> Systems that grow with content volume without sacrificing quality</li>
+        </ul>
+        <p>Whether producing content for personal branding, client campaigns, or educational purposes, I combine creative storytelling with engineering efficiency to deliver impact at scale.</p>
+        <ul class="actions">
+          <li><a href="/en/#contact" class="button next">{t('media.system.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

@@ -1,0 +1,56 @@
+---
+import { t } from '../i18n/i18n.js';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+---
+
+<section id="contact">
+  <div class="inner">
+    <table class="contact-table">
+      <tr>
+        <td>
+          <div class="contact-method">
+            <span class="icon solid alt fa-envelope"></span>
+            <h3>{t('contact.email', lang)}</h3>
+            <a href="mailto:kajoble07@gmail.com">kajoble07@gmail.com</a>
+          </div>
+        </td>
+        <td>
+          <div class="contact-method">
+            <span class="icon solid alt fa-phone"></span>
+            <h3>{t('contact.phone', lang)}</h3>
+            <a href="tel:+17542658212">+1 (754) 265 8212</a>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <div class="contact-method">
+            <span class="icon solid alt fa-home"></span>
+            <h3>{t('contact.addressUSA', lang)}</h3>
+            <span set:html={t('contact.addressUSADetails', lang)}></span>
+          </div>
+        </td>
+        <td>
+          <div class="contact-method">
+            <span class="icon solid alt fa-home"></span>
+            <h3>{t('contact.addressEurope', lang)}</h3>
+            <span set:html={t('contact.addressEuropeDetails', lang)}></span>
+          </div>
+        </td>
+        <td>
+          <div class="contact-method">
+            <span class="icon solid alt fa-home"></span>
+            <h3>{t('contact.addressCameroon', lang)}</h3>
+            <span set:html={t('contact.addressCameroonDetails', lang)}></span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>

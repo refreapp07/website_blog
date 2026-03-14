@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "home": "Home",
+    "software": "Software Engineering",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "menu": "Menu"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "addressUSA": "Address USA",
+    "addressUSADetails": "Fort Lauderdale<br />Florida, FL 33301<br />United States of America",
+    "addressEurope": "Address Europe",
+    "addressEuropeDetails": "Liege<br />Belgium, BE 4000",
+    "addressCameroon": "Address Cameroon",
+    "addressCameroonDetails": "Yaounde<br />Cameroun"
+  },
+  "footer": {
+    "copyright": "© Refre 2026",
+    "design": "Design:"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getStarted": "Get Started",
+    "getInTouch": "Get In Touch",
+    "viewProject": "View Project",
+    "backToBlog": "← Back to blog",
+    "discussProject": "Discuss Your Project",
+    "discussAI": "Discuss AI for Your Business",
+    "comingSoon": "Coming soon."
+  },
+  "home": {
+    "meta": {
+      "title": "Kajoble - Software Engineering & Consulting Services",
+      "description": "Kajoble - Senior Software Engineer specializing in .NET development, IoT solutions, AI consulting, telecom, and engineering services. Full-stack development with proven expertise.",
+      "keywords": "software engineering, .NET developer, full-stack developer, IoT, AI consulting, telecom, DWDM, engineering services, Johnny Kamnang"
+    },
+    "banner": {
+      "title": "Hi, my name is Johnny",
+      "subtitle": "I'm an engineer who turns complex ideas into performant, user-friendly applications."
+    },
+    "tiles": {
+      "software": {
+        "title": "Software engineering",
+        "subtitle": "Full-Stack Senior .Net Developer"
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "Consulting"
+      },
+      "telecom": {
+        "title": "Telecom",
+        "subtitle": "DWDM consulting"
+      },
+      "engineering": {
+        "title": "Engineering",
+        "subtitle": "R&D and consulting"
+      },
+      "crypto": {
+        "title": "Crypto advice",
+        "subtitle": "consulting"
+      },
+      "media": {
+        "title": "Media",
+        "subtitle": "Content creation"
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What clients and collaborators say about working with me."
+    }
+  },
+  "software": {
+    "meta": {
+      "title": "Software Engineering - Kajoble | Full-Stack .NET Developer",
+      "description": "Senior Software Engineer with experience at GE Healthcare, ISTA, LASEA, INASTI, and ELIA. Delivering mission-critical solutions in healthcare, energy, and government systems.",
+      "keywords": ".NET developer, C# developer, full-stack engineer, enterprise software, IoT development, healthcare software, industrial automation"
+    },
+    "banner": {
+      "title": "Software Engineering",
+      "subtitle": "Full-Stack Senior .Net Developer."
+    },
+    "journey": {
+      "title": "Journey",
+      "text": "Senior Software Engineer with experience delivering mission-critical solutions across healthcare, public sector, energy, transportation, and industrial systems, with strong ownership from architecture to production."
+    },
+    "about": {
+      "title": "About me",
+      "text": "I'm a software engineer with a passion for building efficient, scalable, and user-friendly applications. My journey started with a fascination for how things work behind the screen, and quickly evolved into a career focused on creating impactful digital solutions. Over the past few years, I've worked on diverse projects—ranging from productivity tools to enterprise healthcare systems, IoT platforms, and industrial automation. I thrive on solving complex problems and delivering solutions that make a real difference.",
+      "cta": "Get Started"
+    },
+    "projects": {
+      "ge": {
+        "title": "GE Healthcare",
+        "text": "Software Engineer with deep experience at GE Healthcare, developing industrial C#/.NET applications, data intelligence tools, and enterprise user interfaces for medical and electromechanical systems."
+      },
+      "ista": {
+        "title": "ISTA",
+        "text": "Senior Software Engineer with end-to-end ownership of enterprise and IoT projects at ISTA, combining .NET development, system architecture, cross-team coordination, and international rollout."
+      },
+      "lasea": {
+        "title": "LASEA",
+        "text": "Senior Software Developer at LASEA, delivering applications for industrial laser control, combining real-time system interaction and user-focused design."
+      },
+      "mobile": {
+        "title": "Mobile app / SaaS",
+        "text": "Freelance Senior Software Engineer, creator of successful mobile apps exceeding 150,000 downloads across Android, iOS, and Windows platforms."
+      },
+      "saas": {
+        "title": "SaaS & Customer Landing page",
+        "text": "Independent Senior Software Engineer providing web and business software solutions for SMEs and enterprise clients."
+      },
+      "inasti": {
+        "title": "INASTI",
+        "text": "Senior Software Developer working on a mission-critical governmental system for freelance career management, with a strong focus on integration, security, and CI/CD."
+      },
+      "elia": {
+        "title": "Elia",
+        "text": "Senior Software Developer at ELIA, designing and implementing scalable .NET applications with modern web technologies and data visualization."
+      },
+      "inami": {
+        "title": "INAMI",
+        "text": "Senior Software Developer contributing to a mission-critical governmental system for healthcare professional registration and lifecycle management."
+      },
+      "ypto": {
+        "title": "YPTO",
+        "text": "Senior Software Developer at YPTO, leading feature development and performance improvements for a large-scale railway management platform."
+      }
+    }
+  },
+  "artificial": {
+    "meta": {
+      "title": "AI & Intelligent Automation - Kajoble",
+      "description": "Specialist in AI-driven automation and intelligent workflow design. Engineering-first approach for production-ready AI systems."
+    },
+    "banner": {
+      "title": "AI, Automation & Intelligent Workflows",
+      "subtitle": "Transforming AI from experimentation to production-ready systems. Engineering-first approach to intelligent automation."
+    },
+    "intro": {
+      "title": "AI-Driven Automation & Intelligent Workflows",
+      "p1": "I specialize in artificial intelligence-driven automation and the design of intelligent workflows that connect software systems, data, and decision-making processes.",
+      "p2": "My work focuses on building practical, production-ready solutions using tools such as n8n to automate complex workflows, orchestrate APIs, and integrate AI capabilities into existing systems. I make extensive, professional use of modern AI assistants and developer tools — including ChatGPT, Claude, Claude Code, GitHub Copilot, Google AI Studio, and Google Labs — to accelerate development, improve code quality, and support advanced problem-solving."
+    },
+    "philosophy": {
+      "title": "Engineering-First Philosophy",
+      "p1": "My approach to AI is engineering-first: I focus on robustness, automation, and real business value rather than experimentation alone. The goal is always the same — turn AI into a dependable system component, not just a standalone feature.",
+      "p2": "This means prioritizing production readiness, maintainability, observability, and integration with existing systems. AI solutions should be reliable infrastructure, not fragile prototypes.",
+      "cta": "Discuss Your AI Project"
+    }
+  },
+  "crypto": {
+    "meta": {
+      "title": "Cryptocurrency, DeFi & DAO - Kajoble",
+      "description": "Engineering-driven approach to decentralized finance. Sustainability, transparency, and real utility over speculation."
+    },
+    "banner": {
+      "title": "Cryptocurrency, DeFi & DAO",
+      "subtitle": "Engineering-driven approach to decentralized finance. Sustainability, transparency, and real utility over speculation."
+    },
+    "intro": {
+      "title": "Decentralized Finance & Governance",
+      "p1": "I have several years of hands-on experience in the cryptocurrency and decentralized finance (DeFi) ecosystem, combining technical understanding, strategic thinking, and real-world project execution.",
+      "p2": "I have worked extensively with DeFi protocols, token economics, and decentralized governance models (DAOs), providing consultancy and guidance on architecture choices, risk management, and practical implementation. My focus has always been on sustainability, transparency, and real utility, rather than short-term speculation."
+    },
+    "bridging": {
+      "title": "Bridging Traditional & Decentralized Systems",
+      "p1": "This experience complements my broader background in software engineering, automation, and AI, allowing me to bridge traditional systems and decentralized technologies in a pragmatic and responsible way.",
+      "cta": "Discuss Your Crypto Project"
+    }
+  },
+  "engineering": {
+    "meta": {
+      "title": "Electronic & Embedded Systems Engineering - Kajoble",
+      "description": "From PCB design to firmware development. Bridging hardware, embedded systems, and software integration."
+    },
+    "banner": {
+      "title": "Electronic & Embedded Systems Engineering",
+      "subtitle": "From PCB design to firmware development. Bridging hardware, embedded systems, and software integration."
+    },
+    "intro": {
+      "title": "Hardware Design & Embedded Systems",
+      "p1": "I have a strong, hands-on background in electronic engineering and embedded systems, bridging hardware design, low-level control, and PC-based software integration.",
+      "p2": "My approach to electronics is engineering-driven and practical: I focus on robustness, maintainability, and seamless integration with software and mechanical subsystems. This allows me to contribute effectively to multidisciplinary projects where electronics, mechanics, and software must work together as a single coherent system."
+    },
+    "multidisciplinary": {
+      "title": "Multidisciplinary Integration",
+      "cta": "Discuss Your Project"
+    }
+  },
+  "telecom": {
+    "meta": {
+      "title": "Telecom & DWDM Engineering - Kajoble",
+      "description": "Field Support Engineer at Ciena. Optical transport networks & critical infrastructure across Europe."
+    },
+    "banner": {
+      "title": "Telecom & DWDM Engineering",
+      "subtitle": "Field Support Engineer at Ciena. Optical transport networks & critical infrastructure across Europe."
+    },
+    "intro": {
+      "title": "DWDM Optical Transport Networks",
+      "p1": "At Ciena, I worked as a Field Support Engineer specializing in DWDM optical transport networks, supporting large telecom customers across Europe.",
+      "p2": "This experience provided deep expertise in mission-critical telecom infrastructure, network architecture, and operational excellence that continues to shape my engineering approach today."
+    },
+    "foundation": {
+      "title": "Foundation for Modern Engineering",
+      "cta": "Get In Touch"
+    }
+  },
+  "media": {
+    "meta": {
+      "title": "Media Production & Digital Content - Kajoble",
+      "description": "Technical execution meets storytelling. Engineering media workflows for maximum impact."
+    },
+    "banner": {
+      "title": "Media Production & Digital Content",
+      "subtitle": "Technical execution meets storytelling. Engineering media workflows for maximum impact."
+    },
+    "intro": {
+      "title": "Digital Media Production",
+      "p1": "I have hands-on experience in digital media production, combining technical execution with storytelling across multiple platforms.",
+      "p2": "My approach is both technical and strategic: I adapt formats, pacing, and visuals to each platform's constraints and audience expectations, ensuring clarity, consistency, and engagement. I see media not just as communication, but as a system — one that can be engineered, automated, and continuously improved."
+    },
+    "system": {
+      "title": "Media as a Technical System",
+      "cta": "Discuss Your Media Project"
+    }
+  },
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio - Kajoble",
+      "description": "A showcase of mobile and web applications built with passion and precision."
+    },
+    "banner": {
+      "title": "Portfolio",
+      "subtitle": "A showcase of mobile and web applications built with passion and precision."
+    },
+    "mobile": {
+      "title": "Mobile Applications",
+      "subtitle": "Mobile development done with Xamarin: Android, iOS, UWP - bringing entertainment and functionality to millions of users."
+    },
+    "web": {
+      "title": "Web Development Projects",
+      "subtitle": "Professional websites built with ASP.NET, ASP.NET Core, HTML5/CSS3, Blazor, JavaScript, and MVC - delivering robust solutions for diverse industries."
+    },
+    "cta": {
+      "title": "Ready to start your project?",
+      "text": "Whether you need a mobile app, web application, or custom software solution, I bring expertise in .NET development, cross-platform technologies, and modern web frameworks to bring your vision to life.",
+      "button": "Get In Touch"
+    }
+  },
+  "mobileapp": {
+    "meta": {
+      "title": "Mobile App Development - Kajoble",
+      "description": "Native & cross-platform mobile applications. From concept to 150,000+ downloads across iOS, Android, and Windows."
+    },
+    "banner": {
+      "title": "Mobile App Development & Cross-Platform Solutions",
+      "subtitle": "Native & cross-platform mobile applications. From concept to 150,000+ downloads across iOS, Android, and Windows."
+    },
+    "intro": {
+      "title": "Cross-Platform Mobile Excellence",
+      "p1": "I specialize in building cross-platform mobile applications that deliver native-level performance and user experience across iOS, Android, and Windows platforms. My approach combines modern development frameworks with deep platform understanding to create applications that users love and businesses rely on.",
+      "p2": "With extensive experience in Xamarin.Forms, MAUI, and native platform development, I've built mobile applications ranging from consumer-facing apps with over 150,000 downloads to enterprise solutions serving critical business operations. Every project balances technical excellence with practical business requirements — reliable, maintainable, and designed for the long term."
+    },
+    "portfolio": {
+      "title": "Published Mobile Apps Portfolio",
+      "subtitle": "A selection of successful music entertainment apps reaching 150,000+ combined downloads across iOS, Android, and Windows platforms. Built with Xamarin for cross-platform reach and native performance."
+    },
+    "production": {
+      "title": "From Prototype to Production",
+      "cta": "Discuss Your Mobile App Project"
+    }
+  },
+  "saas": {
+    "meta": {
+      "title": "SaaS & Web Development - Kajoble",
+      "description": "Full-stack web solutions from concept to production. Building scalable SaaS platforms and custom web applications."
+    },
+    "banner": {
+      "title": "SaaS & Web Application Development",
+      "subtitle": "Full-stack web solutions from concept to production. Building scalable SaaS platforms and custom web applications."
+    },
+    "intro": {
+      "title": "Modern Web Application Development",
+      "p1": "I build full-stack web applications and SaaS platforms that combine powerful backend systems with intuitive user experiences. My approach leverages modern web technologies and cloud infrastructure to deliver solutions that are scalable, maintainable, and ready for growth.",
+      "p2": "With expertise spanning ASP.NET Core, Blazor, React, and cloud platforms, I've developed everything from customer-facing websites to complex enterprise SaaS applications. Every project focuses on performance, security, and user experience — delivering web solutions that businesses can depend on."
+    },
+    "portfolio": {
+      "title": "Web Development Portfolio",
+      "subtitle": "A selection of custom websites and web applications built for diverse industries. Each project demonstrates full-stack development capabilities, responsive design, and tailored solutions for specific business needs."
+    },
+    "production": {
+      "title": "From Idea to Production-Ready SaaS",
+      "cta": "Discuss Your Web Project"
+    }
+  },
+  "gehealthcare": {
+    "meta": {
+      "title": "GE Healthcare - Kajoble",
+      "description": "Industrial C#/.NET software, enterprise user interfaces for medical systems at GE Healthcare."
+    },
+    "title": "GE Healthcare",
+    "techStack": "Technology Stack"
+  },
+  "ista": {
+    "meta": {
+      "title": "ISTA - Kajoble",
+      "description": "Large-scale enterprise and IoT systems at ISTA for billing, metering, and building management."
+    },
+    "title": "ISTA",
+    "techStack": "Technology Stack"
+  },
+  "elia": {
+    "meta": {
+      "title": "Elia - Kajoble",
+      "description": "GreenTracking for green certificates at Elia, .NET development and modern web technologies."
+    },
+    "title": "Elia"
+  },
+  "inami": {
+    "meta": {
+      "title": "RIZIV-INAMI - Kajoble",
+      "description": "Practice Register platform for national healthcare professional management."
+    },
+    "title": "RIZIV - INAMI"
+  },
+  "inasti": {
+    "meta": {
+      "title": "RSVZ-INASTI - Kajoble",
+      "description": "Government platform Sequia for freelance career management."
+    },
+    "title": "RSVZ-INASTI"
+  },
+  "lasea": {
+    "meta": {
+      "title": "LASEA - Kajoble",
+      "description": "Enhancement of KYLA® software for precise control of industrial laser systems."
+    },
+    "title": "LASEA",
+    "techStack": "Technology Stack"
+  },
+  "ypto": {
+    "meta": {
+      "title": "YPTO - Kajoble",
+      "description": "EShuning railway management platform at YPTO, .NET 9 and Blazor development."
+    },
+    "title": "YPTO"
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Kajoble",
+      "description": "Articles on software engineering, AI, technology and strategy for businesses."
+    },
+    "banner": {
+      "title": "Blog",
+      "subtitle": "Reflections on software engineering, AI and technology to help businesses & entrepreneurs make better decisions."
+    },
+    "latest": {
+      "title": "Latest articles",
+      "text": "I share here feedback, analysis and concrete ideas around artificial intelligence, software development and digital transformations. Goal: move from buzzword to pragmatic decisions for your projects and business."
+    }
+  }
+}

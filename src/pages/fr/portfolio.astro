@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('portfolio.meta.title', lang)}
+  description={t('portfolio.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/portfolio"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('portfolio.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('portfolio.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <!-- Mobile Portfolio -->
+    <section id="mobile-portfolio">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('portfolio.mobile.title', lang)}</h2>
+        </header>
+        <p>{t('portfolio.mobile.subtitle', lang)}</p>
+
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/mbvariet.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mbossfr.png" alt="MB Variété FR" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MB Variété FR</h3>
+                  <p>Application de musique variété française</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/mbafro.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mbossafro.jpg" alt="MB Afro" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MB Afro</h3>
+                  <p>Streaming de musique africaine</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/mbpop.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mbosspop.png" alt="MB Pop" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MB Pop</h3>
+                  <p>Divertissement musique pop</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/mbrapfr.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mbossrapfr.jpg" alt="MB Rap FR" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MB Rap FR</h3>
+                  <p>Plateforme de rap français</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/plmjj.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mjj.png" alt="Michael Jackson" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MJ App</h3>
+                  <p>Hommage à Michael Jackson</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/plbooba.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/booba.png" alt="Booba" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>Booba Officiel</h3>
+                  <p>Application officielle de l'artiste</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 col-12-small">
+              <a href="/myappsitenew/mbrapus.html" class="portfolio-link">
+                <span class="image fit">
+                  <img src="/images/thumbs/mbossrapus.jpg" alt="MB Rap US" />
+                </span>
+                <div class="portfolio-overlay">
+                  <h3>MB Rap US</h3>
+                  <p>Streaming de rap américain</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web Portfolio -->
+    <section id="web-portfolio" class="spotlights">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('portfolio.web.title', lang)}</h2>
+        </header>
+        <p>{t('portfolio.web.subtitle', lang)}</p>
+      </div>
+
+      <section>
+        <a href="http://www.refre.be/mysites/schwarzline" class="image">
+          <img src="/images/thumbs/01-sch.jpg" alt="Schwarzline" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Schwarzline.com</h3></header>
+            <p>Une solution e-commerce complète pour un magasin de pneus, avec gestion des stocks en ligne, prise de rendez-vous et intégration du service client.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/schwarzline" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="http://www.refre.be/mysites/deadalus/" class="image">
+          <img src="/images/thumbs/02-daedalus.jpg" alt="Daedalus Engineering" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Daedalus Engineering</h3></header>
+            <p>Site web professionnel pour des services d'ingénierie indépendants en radiochimie, médical, pharma et industrie alimentaire. Présentation des services et portail client.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/deadalus/" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="http://www.refre.be/mysites/tshouly/" class="image">
+          <img src="/images/thumbs/03-tshouly.jpg" alt="Tshouly Concept" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Tshouly Concept</h3></header>
+            <p>Plateforme de coaching pour le développement personnel et d'entreprise, avec systèmes de réservation, bibliothèques de ressources et outils de gestion des clients.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/tshouly/" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="http://www.refre.be/mysites/sd/" class="image">
+          <img src="/images/thumbs/04-sd.jpg" alt="S&D Tech" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>S&D Tech</h3></header>
+            <p>Site web d'entreprise pour une société d'usinage de précision, présentant les capacités, le portefeuille d'équipements et les galeries de projets.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/sd/" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="http://www.refre.be/mysites/cloudpix/" class="image">
+          <img src="/images/thumbs/05-could.jpg" alt="Cloudpix" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Cloudpix.be</h3></header>
+            <p>Site web de service de photographie par drone professionnel avec galerie intégrée, système de réservation et vitrine de portfolio pour la photographie aérienne.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/cloudpix/" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="http://www.refre.be/mysites/jl/" class="image">
+          <img src="/images/thumbs/06-jl.jpg" alt="Carrefour Express" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Carrefour Express Liège</h3></header>
+            <p>Site web de magasin d'alimentation local avec catalogues de produits, offres spéciales, informations sur le magasin et intégration du service de livraison.</p>
+            <ul class="actions">
+              <li><a href="http://www.refre.be/mysites/jl/" class="button" target="_blank">{t('common.viewProject', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- CTA -->
+    <section id="cta">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('portfolio.cta.title', lang)}</h2>
+        </header>
+        <p>{t('portfolio.cta.text', lang)}</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('portfolio.cta.button', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

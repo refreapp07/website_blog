@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('telecom.meta.title', lang)}
+  description={t('telecom.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/telecom"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('telecom.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('telecom.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('telecom.intro.title', lang)}</h2>
+        </header>
+        <p>{t('telecom.intro.p1', lang)}</p>
+        <p>{t('telecom.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-cable.jpg" alt="Support Technique & Ingénierie Client" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Support Technique & Ingénierie Client</h3></header>
+            <p>Fourniture de support technique complet pour les équipements DWDM de Ciena, à distance et sur les sites clients, couvrant les problèmes logiciels, matériels et réseau.</p>
+            <p>Intervention en tant qu'ingénieur client au NOC pour KPN/Qwest, supportant une infrastructure backbone mission-critique où les interruptions n'étaient pas une option. Ce rôle exigeait des connaissances techniques approfondies combinées à d'excellentes compétences en communication et à la capacité de prendre des décisions critiques sous pression.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-europe.jpg" alt="Projets d'Infrastructure à Grande Échelle" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Projets d'Infrastructure à Grande Échelle</h3></header>
+            <p>Direction d'un projet de remplacement d'amplificateurs à l'échelle européenne, coordonnant les mises à niveau sur plusieurs sites et pays. Cela nécessitait une planification méticuleuse, une coordination inter-équipes et une exécution sous des contraintes strictes de disponibilité du service.</p>
+            <p>Optimisation des réseaux DWDM clients par des mises à jour logicielles, des améliorations et des upgrades matériels, assurant des performances et une fiabilité maximales tout en minimisant les interruptions de service.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-antenna.avif" alt="Installation & Mise en Service" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Installation, Tests & Mise en Service</h3></header>
+            <p>Installation, test et mise en service d'équipements de transmission optique core, y compris les racks, les ODF, les cartes ADM et les systèmes de transmission. Ce travail pratique a fourni une compréhension approfondie des contraintes de la couche physique et des principes d'ingénierie optique.</p>
+            <p>Réalisation de migrations réseau, provisionnement, analyse des défauts et dépannage sur site sous des contraintes strictes de sécurité et de disponibilité.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-cisco.jpg" alt="Ingénierie Réseau & Technologies Cisco" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Ingénierie Réseau & Technologies Cisco</h3></header>
+            <p>Développement d'une expertise pratique avec les technologies Cisco, formalisée par une expérience de niveau CCNA, couvrant les réseaux IP, le routage, la commutation et le dépannage.</p>
+            <p>Soutien aux activités d'ingénierie commerciale en contribuant à l'expertise technique pour les propositions clients et les rapports réseau, faisant le lien entre les capacités techniques et les exigences commerciales.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('telecom.foundation.title', lang)}</h2>
+        </header>
+        <p>Cette expérience de début de carrière continue d'influencer mon travail aujourd'hui, notamment dans :</p>
+        <ul>
+          <li><strong>Architecture Système :</strong> Compréhension des systèmes distribués et des contraintes d'infrastructure depuis l'expérience réelle</li>
+          <li><strong>Conception d'API & d'Intégration :</strong> Conception d'interfaces tenant compte des réalités réseau et des modes de défaillance</li>
+          <li><strong>Systèmes Distribués :</strong> Construction de systèmes résilients gérant les partitions réseau et la latence</li>
+          <li><strong>Performance, Fiabilité & Observabilité :</strong> Priorisation de l'excellence opérationnelle et du monitoring dès le départ</li>
+        </ul>
+        <p>Elle ancre mon travail d'ingénierie logicielle dans des contraintes d'infrastructure réelles, faisant le pont entre le logiciel, les réseaux et les opérations — garantissant que les solutions ne sont pas seulement théoriquement solides, mais opérationnellement viables.</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('telecom.foundation.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

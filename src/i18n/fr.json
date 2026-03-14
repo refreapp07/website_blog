@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "software": "Ingénierie Logicielle",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "menu": "Menu"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Téléphone",
+    "addressUSA": "Adresse USA",
+    "addressUSADetails": "Fort Lauderdale<br />Florida, FL 33301<br />United States of America",
+    "addressEurope": "Adresse Europe",
+    "addressEuropeDetails": "Liège<br />Belgique, BE 4000",
+    "addressCameroon": "Adresse Cameroun",
+    "addressCameroonDetails": "Yaoundé<br />Cameroun"
+  },
+  "footer": {
+    "copyright": "© Refre 2026",
+    "design": "Design :"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "getInTouch": "Nous contacter",
+    "viewProject": "Voir le projet",
+    "backToBlog": "← Retour au blog",
+    "discussProject": "Discuter de votre projet",
+    "discussAI": "Discuter IA pour votre entreprise",
+    "comingSoon": "Bientôt disponible."
+  },
+  "home": {
+    "meta": {
+      "title": "Kajoble - Ingénierie Logicielle & Services de Conseil",
+      "description": "Kajoble - Ingénieur Logiciel Senior spécialisé en développement .NET, solutions IoT, conseil IA, télécom et services d'ingénierie. Développement full-stack avec une expertise avérée.",
+      "keywords": "ingénierie logicielle, développeur .NET, développeur full-stack, IoT, conseil IA, télécom, DWDM, services d'ingénierie, Johnny Kamnang"
+    },
+    "banner": {
+      "title": "Bonjour, je m'appelle Johnny",
+      "subtitle": "Je suis un ingénieur qui transforme des idées complexes en applications performantes et conviviales."
+    },
+    "tiles": {
+      "software": {
+        "title": "Ingénierie logicielle",
+        "subtitle": "Développeur Senior Full-Stack .Net"
+      },
+      "ai": {
+        "title": "IA",
+        "subtitle": "Consulting"
+      },
+      "telecom": {
+        "title": "Télécom",
+        "subtitle": "Conseil DWDM"
+      },
+      "engineering": {
+        "title": "Engineering",
+        "subtitle": "R&D et consulting"
+      },
+      "crypto": {
+        "title": "Conseil Crypto",
+        "subtitle": "consulting"
+      },
+      "media": {
+        "title": "Média",
+        "subtitle": "Création de contenu"
+      }
+    },
+    "testimonials": {
+      "title": "Témoignages",
+      "subtitle": "Ce que disent les clients et collaborateurs de notre collaboration."
+    }
+  },
+  "software": {
+    "meta": {
+      "title": "Ingénierie Logicielle - Kajoble | Développeur .NET Full-Stack Senior",
+      "description": "Ingénieur Logiciel Senior avec expérience chez GE Healthcare, ISTA, LASEA, INASTI et ELIA. Livraison de solutions mission-critiques en santé, énergie et systèmes gouvernementaux.",
+      "keywords": "développeur .NET, développeur C#, ingénieur full-stack, logiciel d'entreprise, développement IoT, logiciel médical, automatisation industrielle"
+    },
+    "banner": {
+      "title": "Ingénierie Logicielle",
+      "subtitle": "Développeur Senior Full-Stack .Net."
+    },
+    "journey": {
+      "title": "Parcours",
+      "text": "Ingénieur Logiciel Senior avec expérience dans la livraison de solutions mission-critiques dans les secteurs de la santé, du secteur public, de l'énergie, des transports et des systèmes industriels, avec une forte prise en charge de l'architecture à la production."
+    },
+    "about": {
+      "title": "À propos de moi",
+      "text": "Je suis un ingénieur logiciel passionné par la création d'applications efficaces, évolutives et conviviales. Mon parcours a commencé par une fascination pour le fonctionnement des choses derrière l'écran, et a rapidement évolué en une carrière axée sur la création de solutions numériques à fort impact. Au fil des années, j'ai travaillé sur des projets variés — allant des outils de productivité aux systèmes de santé d'entreprise, aux plateformes IoT et à l'automatisation industrielle. Je m'épanouis en résolvant des problèmes complexes et en livrant des solutions qui font une réelle différence.",
+      "cta": "Démarrer"
+    },
+    "projects": {
+      "ge": {
+        "title": "GE Healthcare",
+        "text": "Ingénieur Logiciel avec une expérience approfondie chez GE Healthcare, développant des applications C#/.NET industrielles, des outils d'intelligence des données et des interfaces utilisateur d'entreprise pour des systèmes médicaux et électromécaniques."
+      },
+      "ista": {
+        "title": "ISTA",
+        "text": "Ingénieur Logiciel Senior avec une prise en charge de bout en bout des projets d'entreprise et IoT chez ISTA, combinant développement .NET, architecture système, coordination inter-équipes et déploiement international."
+      },
+      "lasea": {
+        "title": "LASEA",
+        "text": "Développeur Logiciel Senior chez LASEA, livrant des applications pour le contrôle laser industriel, combinant interaction système en temps réel et design centré utilisateur."
+      },
+      "mobile": {
+        "title": "Mobile app / SaaS",
+        "text": "Ingénieur Logiciel Senior Freelance, créateur d'applications mobiles populaires dépassant 150 000 téléchargements sur Android, iOS et Windows."
+      },
+      "saas": {
+        "title": "SaaS & Page d'atterrissage client",
+        "text": "Ingénieur Logiciel Senior Indépendant fournissant des solutions web et logicielles pour les PME et les entreprises clientes."
+      },
+      "inasti": {
+        "title": "INASTI",
+        "text": "Développeur Logiciel Senior travaillant sur un système gouvernemental mission-critique pour la gestion des carrières indépendantes, avec un fort accent sur l'intégration, la sécurité et le CI/CD."
+      },
+      "elia": {
+        "title": "Elia",
+        "text": "Développeur Logiciel Senior chez ELIA, concevant et implémentant des applications .NET évolutives avec des technologies web modernes et de la visualisation de données."
+      },
+      "inami": {
+        "title": "INAMI",
+        "text": "Développeur Logiciel Senior contribuant à un système gouvernemental mission-critique pour l'inscription et la gestion du cycle de vie des professionnels de santé."
+      },
+      "ypto": {
+        "title": "YPTO",
+        "text": "Développeur Logiciel Senior chez YPTO, dirigeant le développement de fonctionnalités et les améliorations de performance pour une plateforme de gestion ferroviaire à grande échelle."
+      }
+    }
+  },
+  "artificial": {
+    "meta": {
+      "title": "IA & Automatisation Intelligente - Kajoble",
+      "description": "Spécialiste en automatisation pilotée par l'IA et conception de workflows intelligents. Approche ingénierie-first pour des systèmes IA production-ready."
+    },
+    "banner": {
+      "title": "IA, Automatisation & Workflows Intelligents",
+      "subtitle": "Transformer l'IA de l'expérimentation aux systèmes production-ready. Approche ingénierie-first pour l'automatisation intelligente."
+    },
+    "intro": {
+      "title": "Automatisation pilotée par l'IA & Workflows Intelligents",
+      "p1": "Je me spécialise dans l'automatisation pilotée par l'intelligence artificielle et la conception de workflows intelligents qui connectent les systèmes logiciels, les données et les processus de prise de décision.",
+      "p2": "Mon travail se concentre sur la création de solutions pratiques et production-ready en utilisant des outils tels que n8n pour automatiser des workflows complexes, orchestrer des APIs et intégrer des capacités IA dans les systèmes existants. Je fais un usage extensif et professionnel des assistants IA modernes et des outils de développement — notamment ChatGPT, Claude, Claude Code, GitHub Copilot, Google AI Studio et Google Labs — pour accélérer le développement, améliorer la qualité du code et soutenir la résolution de problèmes avancés."
+    },
+    "philosophy": {
+      "title": "Philosophie Ingénierie-First",
+      "p1": "Mon approche de l'IA est ingénierie-first : je me concentre sur la robustesse, l'automatisation et la valeur commerciale réelle plutôt que sur la seule expérimentation. L'objectif est toujours le même — transformer l'IA en un composant système fiable, et non en une simple fonctionnalité autonome.",
+      "p2": "Cela signifie prioriser la préparation à la production, la maintenabilité, l'observabilité et l'intégration avec les systèmes existants. Les solutions IA doivent être une infrastructure fiable, et non des prototypes fragiles.",
+      "cta": "Discuter de votre projet IA"
+    }
+  },
+  "crypto": {
+    "meta": {
+      "title": "Cryptomonnaie, DeFi & DAO - Kajoble",
+      "description": "Approche ingénierie dans la finance décentralisée. Durabilité, transparence et utilité réelle plutôt que spéculation."
+    },
+    "banner": {
+      "title": "Cryptomonnaie, DeFi & DAO",
+      "subtitle": "Approche ingénierie dans la finance décentralisée. Durabilité, transparence et utilité réelle plutôt que spéculation."
+    },
+    "intro": {
+      "title": "Finance Décentralisée & Gouvernance",
+      "p1": "J'ai plusieurs années d'expérience pratique dans l'écosystème des cryptomonnaies et de la finance décentralisée (DeFi), combinant compréhension technique, réflexion stratégique et exécution de projets réels.",
+      "p2": "J'ai travaillé de manière approfondie avec des protocoles DeFi, des économies de tokens et des modèles de gouvernance décentralisée (DAOs), en fournissant des conseils et une orientation sur les choix d'architecture, la gestion des risques et l'implémentation pratique. Mon objectif a toujours été la durabilité, la transparence et l'utilité réelle, plutôt que la spéculation à court terme."
+    },
+    "bridging": {
+      "title": "Ponter les Systèmes Traditionnels & Décentralisés",
+      "p1": "Cette expérience complète mon parcours plus large en ingénierie logicielle, automatisation et IA, me permettant de relier les systèmes traditionnels et les technologies décentralisées de manière pragmatique et responsable.",
+      "cta": "Discuter de votre projet Crypto"
+    }
+  },
+  "engineering": {
+    "meta": {
+      "title": "Ingénierie Électronique & Systèmes Embarqués - Kajoble",
+      "description": "De la conception PCB au développement firmware. Relier le matériel, les systèmes embarqués et l'intégration logicielle."
+    },
+    "banner": {
+      "title": "Ingénierie Électronique & Systèmes Embarqués",
+      "subtitle": "De la conception PCB au développement firmware. Relier le matériel, les systèmes embarqués et l'intégration logicielle."
+    },
+    "intro": {
+      "title": "Conception Matérielle & Systèmes Embarqués",
+      "p1": "J'ai une solide expérience pratique en ingénierie électronique et systèmes embarqués, reliant la conception matérielle, le contrôle bas niveau et l'intégration logicielle PC.",
+      "p2": "Mon approche de l'électronique est axée sur l'ingénierie et la pratique : je me concentre sur la robustesse, la maintenabilité et l'intégration transparente avec les sous-systèmes logiciels et mécaniques. Cela me permet de contribuer efficacement à des projets multidisciplinaires où l'électronique, la mécanique et le logiciel doivent fonctionner ensemble comme un système cohérent unique."
+    },
+    "multidisciplinary": {
+      "title": "Intégration Multidisciplinaire",
+      "cta": "Discuter de votre projet"
+    }
+  },
+  "telecom": {
+    "meta": {
+      "title": "Télécom & Ingénierie DWDM - Kajoble",
+      "description": "Ingénieur Support Terrain chez Ciena. Réseaux de transport optique et infrastructure critique à travers l'Europe."
+    },
+    "banner": {
+      "title": "Télécom & Ingénierie DWDM",
+      "subtitle": "Ingénieur Support Terrain chez Ciena. Réseaux de transport optique & infrastructure critique à travers l'Europe."
+    },
+    "intro": {
+      "title": "Réseaux de Transport Optique DWDM",
+      "p1": "Chez Ciena, j'ai travaillé comme Ingénieur Support Terrain spécialisé dans les réseaux de transport optique DWDM, soutenant de grands clients télécom à travers l'Europe.",
+      "p2": "Cette expérience a fourni une expertise approfondie en infrastructure télécom mission-critique, architecture réseau et excellence opérationnelle qui continue d'influencer mon approche ingénierie aujourd'hui."
+    },
+    "foundation": {
+      "title": "Fondement pour l'Ingénierie Moderne",
+      "cta": "Nous contacter"
+    }
+  },
+  "media": {
+    "meta": {
+      "title": "Production Médiatique & Contenu Numérique - Kajoble",
+      "description": "L'exécution technique rencontre la narration. Ingénierie de workflows médiatiques pour un impact maximal."
+    },
+    "banner": {
+      "title": "Production Médiatique & Contenu Numérique",
+      "subtitle": "L'exécution technique rencontre la narration. Ingénierie de workflows médiatiques pour un impact maximal."
+    },
+    "intro": {
+      "title": "Production Médiatique Numérique",
+      "p1": "J'ai une expérience pratique dans la production médiatique numérique, combinant l'exécution technique avec la narration sur plusieurs plateformes.",
+      "p2": "Mon approche est à la fois technique et stratégique : j'adapte les formats, le rythme et les visuels aux contraintes de chaque plateforme et aux attentes du public, assurant clarté, cohérence et engagement. Je vois les médias non seulement comme une communication, mais comme un système — qui peut être conçu, automatisé et continuellement amélioré."
+    },
+    "system": {
+      "title": "Les Médias comme Système Technique",
+      "cta": "Discuter de votre projet Médias"
+    }
+  },
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio - Kajoble",
+      "description": "Une vitrine d'applications mobiles et web construites avec passion et précision."
+    },
+    "banner": {
+      "title": "Portfolio",
+      "subtitle": "Une vitrine d'applications mobiles et web construites avec passion et précision."
+    },
+    "mobile": {
+      "title": "Applications Mobiles",
+      "subtitle": "Développement mobile avec Xamarin : Android, iOS, UWP - apportant divertissement et fonctionnalité à des millions d'utilisateurs."
+    },
+    "web": {
+      "title": "Projets Web",
+      "subtitle": "Sites web professionnels construits avec ASP.NET, ASP.NET Core, HTML5/CSS3, Blazor, JavaScript et MVC - livrant des solutions robustes pour diverses industries."
+    },
+    "cta": {
+      "title": "Prêt à démarrer votre projet ?",
+      "text": "Que vous ayez besoin d'une application mobile, d'une application web ou d'une solution logicielle personnalisée, j'apporte mon expertise en développement .NET, technologies cross-platform et frameworks web modernes pour concrétiser votre vision.",
+      "button": "Nous contacter"
+    }
+  },
+  "mobileapp": {
+    "meta": {
+      "title": "Développement d'Applications Mobiles - Kajoble",
+      "description": "Applications mobiles natives et cross-platform. Du concept à plus de 150 000 téléchargements sur iOS, Android et Windows."
+    },
+    "banner": {
+      "title": "Développement d'Applications Mobiles & Solutions Cross-Platform",
+      "subtitle": "Applications mobiles natives & cross-platform. Du concept à plus de 150 000 téléchargements sur iOS, Android et Windows."
+    },
+    "intro": {
+      "title": "Excellence Mobile Cross-Platform",
+      "p1": "Je me spécialise dans la création d'applications mobiles cross-platform offrant des performances et une expérience utilisateur de niveau natif sur iOS, Android et Windows. Mon approche combine des frameworks de développement modernes avec une compréhension approfondie des plateformes pour créer des applications que les utilisateurs adorent et sur lesquelles les entreprises comptent.",
+      "p2": "Avec une expérience approfondie en Xamarin.Forms, MAUI et développement natif, j'ai construit des applications mobiles allant des apps grand public avec plus de 150 000 téléchargements aux solutions d'entreprise servant des opérations commerciales critiques. Chaque projet équilibre excellence technique et exigences commerciales pratiques — fiable, maintenable et conçu pour le long terme."
+    },
+    "portfolio": {
+      "title": "Portfolio d'Applications Mobiles Publiées",
+      "subtitle": "Une sélection d'applications de divertissement musical populaires atteignant plus de 150 000 téléchargements combinés sur iOS, Android et Windows. Construites avec Xamarin pour une portée cross-platform et des performances natives."
+    },
+    "production": {
+      "title": "Du Prototype à la Production",
+      "cta": "Discuter de votre projet d'application mobile"
+    }
+  },
+  "saas": {
+    "meta": {
+      "title": "SaaS & Développement Web - Kajoble",
+      "description": "Solutions web full-stack du concept à la production. Construction de plateformes SaaS évolutives et d'applications web personnalisées."
+    },
+    "banner": {
+      "title": "Développement d'Applications SaaS & Web",
+      "subtitle": "Solutions web full-stack du concept à la production. Construction de plateformes SaaS évolutives et d'applications web personnalisées."
+    },
+    "intro": {
+      "title": "Développement d'Applications Web Modernes",
+      "p1": "Je construis des applications web full-stack et des plateformes SaaS qui combinent des systèmes backend puissants avec des expériences utilisateur intuitives. Mon approche exploite les technologies web modernes et l'infrastructure cloud pour livrer des solutions évolutives, maintenables et prêtes pour la croissance.",
+      "p2": "Avec une expertise couvrant ASP.NET Core, Blazor, React et les plateformes cloud, j'ai développé tout, des sites web grand public aux applications SaaS d'entreprise complexes. Chaque projet se concentre sur la performance, la sécurité et l'expérience utilisateur — livrant des solutions web sur lesquelles les entreprises peuvent compter."
+    },
+    "portfolio": {
+      "title": "Portfolio de Développement Web",
+      "subtitle": "Une sélection de sites web personnalisés et d'applications web construites pour diverses industries. Chaque projet démontre des capacités de développement full-stack, un design responsive et des solutions adaptées à des besoins commerciaux spécifiques."
+    },
+    "production": {
+      "title": "De l'Idée au SaaS Production-Ready",
+      "cta": "Discuter de votre projet web"
+    }
+  },
+  "gehealthcare": {
+    "meta": {
+      "title": "GE Healthcare - Kajoble",
+      "description": "Logiciel industriel C#/.NET, interfaces utilisateur d'entreprise pour systèmes médicaux chez GE Healthcare."
+    },
+    "title": "GE Healthcare",
+    "techStack": "Stack Technologique"
+  },
+  "ista": {
+    "meta": {
+      "title": "ISTA - Kajoble",
+      "description": "Systèmes IoT et d'entreprise à grande échelle chez ISTA pour la facturation, le comptage et la gestion d'immeubles."
+    },
+    "title": "ISTA",
+    "techStack": "Stack Technologique"
+  },
+  "elia": {
+    "meta": {
+      "title": "Elia - Kajoble",
+      "description": "GreenTracking pour certificats verts chez Elia, développement .NET et technologies web modernes."
+    },
+    "title": "Elia"
+  },
+  "inami": {
+    "meta": {
+      "title": "RIZIV-INAMI - Kajoble",
+      "description": "Plateforme Practice Register pour la gestion nationale des professionnels de santé."
+    },
+    "title": "RIZIV - INAMI"
+  },
+  "inasti": {
+    "meta": {
+      "title": "RSVZ-INASTI - Kajoble",
+      "description": "Plateforme gouvernementale Sequia pour la gestion des carrières indépendantes."
+    },
+    "title": "RSVZ-INASTI"
+  },
+  "lasea": {
+    "meta": {
+      "title": "LASEA - Kajoble",
+      "description": "Amélioration du logiciel KYLA® pour le contrôle précis des systèmes laser industriels."
+    },
+    "title": "LASEA",
+    "techStack": "Stack Technologique"
+  },
+  "ypto": {
+    "meta": {
+      "title": "YPTO - Kajoble",
+      "description": "Plateforme de gestion ferroviaire EShuning chez YPTO, développement .NET 9 et Blazor."
+    },
+    "title": "YPTO"
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Kajoble",
+      "description": "Articles sur l'ingénierie logicielle, l'IA, la technologie et la stratégie pour les entreprises."
+    },
+    "banner": {
+      "title": "Blog",
+      "subtitle": "Réflexions sur l'ingénierie logicielle, l'IA et la technologie pour aider les entreprises & entrepreneurs à prendre de meilleures décisions."
+    },
+    "latest": {
+      "title": "Derniers articles",
+      "text": "Je partage ici des retours d'expérience, des analyses et des idées concrètes autour de l'intelligence artificielle, du développement logiciel et des transformations numériques. Objectif : passer du buzzword à des décisions pragmatiques pour vos projets et votre business."
+    }
+  }
+}

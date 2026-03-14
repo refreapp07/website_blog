@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('blog.meta.title', lang)}
+  description={t('blog.meta.description', lang)}
+  ogUrl="https://kajoble.com/blog"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('blog.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('blog.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="intro">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('blog.latest.title', lang)}</h2>
+        </header>
+        <p>{t('blog.latest.text', lang)}</p>
+      </div>
+    </section>
+
+    <section id="posts" class="tiles">
+      <article>
+        <span class="image">
+          <img src="/images/assistants-vocaux.png" alt="Avènement de l'IA et dette technologique" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href="/blog/assistants-vocaux" class="link">Avènement de l'IA et dette technologique</a></h3>
+          <p>Pourquoi se limiter aux assistants vocaux pour juger l'IA peut créer une vraie dette technologique pour les entreprises.</p>
+        </header>
+      </article>
+
+      <article>
+        <span class="image">
+          <img src="/images/blog-champion.png" alt="champions" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href="/blog/tapons-sur-le-champion" class="link">Tapons sur le champion</a></h3>
+          <p>IA, droits d'auteur et souveraineté&nbsp;: l'Europe doit-elle sacrifier son champion Mistral&nbsp;?</p>
+        </header>
+      </article>
+    </section>
+
+  </div>
+</BaseLayout>

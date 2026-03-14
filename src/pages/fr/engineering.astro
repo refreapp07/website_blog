@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('engineering.meta.title', lang)}
+  description={t('engineering.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/engineering"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('engineering.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('engineering.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('engineering.intro.title', lang)}</h2>
+        </header>
+        <p>{t('engineering.intro.p1', lang)}</p>
+        <p>{t('engineering.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/electronic.jpg" alt="Systèmes Électroniques Personnalisés" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Conception de Systèmes Électroniques Personnalisés</h3></header>
+            <p>J'ai conçu et construit des systèmes électroniques personnalisés de A à Z, y compris une caméra CCD contrôlée directement depuis un PC, depuis la conception PCB et l'assemblage jusqu'au développement firmware et au contrôle logiciel.</p>
+            <p>Ce travail a impliqué la gestion du signal, l'interfaçage matériel-logiciel et l'acquisition fiable de données dans un environnement réel. L'approche cycle de vie complet — de la conception schématique au code de production — assure une compréhension approfondie du comportement du système.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/electronic-embedded.jpg" alt="Prototypage & Déploiement Embarqué" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Prototypage & Déploiement Embarqué</h3></header>
+            <p>Je travaille régulièrement avec les plateformes Raspberry Pi et Arduino pour prototyper, contrôler et déployer des solutions embarquées, combinant l'électronique bas niveau avec une logique applicative de plus haut niveau.</p>
+            <p>Ces systèmes sont souvent intégrés dans des environnements logiciels ou d'automatisation plus larges, servant de pont entre les capteurs physiques, les actionneurs et les systèmes logiciels d'entreprise.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/electronic-rotary.png" alt="Contrôle de Mouvement & Systèmes Électromécaniques" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Contrôle de Mouvement & Systèmes Électromécaniques</h3></header>
+            <p>Je collabore étroitement avec les équipes électromécaniques, aidant à concevoir, contrôler et régler les axes rotatifs et les systèmes de mouvement. Cela inclut l'implémentation d'une logique de contrôle précise, l'interfaçage des capteurs et des actionneurs, et la garantie d'une communication fiable entre les composants électroniques, les systèmes mécaniques et le logiciel de supervision.</p>
+            <p>Le contrôle de mouvement nécessite une compréhension approfondie des systèmes de rétroaction, du réglage PID, des contraintes temps réel et du comportement mécanique.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/electronic-pcb.jpg" alt="Conception PCB & Développement Firmware" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Conception PCB & Développement Firmware</h3></header>
+            <p>De la capture schématique et du layout PCB au développement firmware et à l'intégration matériel-logiciel, je gère l'ensemble du processus de conception électronique. Cela inclut l'analyse de l'intégrité du signal, la gestion de l'alimentation, la sélection des composants et la conception pour la fabricabilité.</p>
+            <p>Le développement firmware couvre la programmation bare-metal, l'intégration RTOS, les protocoles de communication (I2C, SPI, UART, CAN) et les couches d'abstraction matérielle.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('engineering.multidisciplinary.title', lang)}</h2>
+        </header>
+        <p>Mon expérience en électronique permet une contribution efficace à des projets multidisciplinaires complexes où différents domaines d'ingénierie doivent converger :</p>
+        <ul>
+          <li><strong>Intégration Matériel-Logiciel :</strong> Interfaçage transparent entre les systèmes embarqués et les logiciels applicatifs</li>
+          <li><strong>Acquisition & Traitement du Signal :</strong> Capture de données fiable, filtrage et analyse en temps réel</li>
+          <li><strong>Systèmes de Contrôle :</strong> Boucles de rétroaction, contrôleurs PID et algorithmes de contrôle de mouvement</li>
+          <li><strong>Architecture Système :</strong> Conception de solutions complètes équilibrant les contraintes électriques, mécaniques et logicielles</li>
+          <li><strong>Du Prototype à la Production :</strong> Solutions d'ingénierie qui transitent en douceur du concept au déploiement</li>
+        </ul>
+        <p>Cette approche complète garantit que les systèmes électroniques ne sont pas des composants isolés, mais des parties intégrantes de solutions d'ingénierie plus larges et bien intégrées.</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('engineering.multidisciplinary.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

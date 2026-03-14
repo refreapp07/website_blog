@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('mobileapp.meta.title', lang)}
+  description={t('mobileapp.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/mobileapp"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('mobileapp.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('mobileapp.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.intro.title', lang)}</h2>
+        </header>
+        <p>{t('mobileapp.intro.p1', lang)}</p>
+        <p>{t('mobileapp.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/mobileapp.jpg" alt="Développement Cross-Platform" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Développement Cross-Platform avec Xamarin & .NET MAUI</h3></header>
+            <p>Je construis des applications mobiles cross-platform avec Xamarin.Forms et .NET MAUI, maximisant la réutilisation du code tout en offrant des expériences utilisateur natives à chaque plateforme. Cette approche combine l'expertise C# et .NET avec une compréhension approfondie des directives iOS, Android et Windows, résultant en des applications natives partageant jusqu'à 95% de la logique métier, du code UI et de l'infrastructure de test.</p>
+            <p>La valeur n'est pas seulement l'efficacité technique — c'est un time-to-market plus rapide, une parité de fonctionnalités cohérente entre plateformes et une charge de maintenance considérablement réduite.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/mobileapp.jpg" alt="Applications Mobiles Grand Public" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Applications Mobiles Grand Public : 150 000+ Téléchargements</h3></header>
+            <p>J'ai construit et lancé des applications mobiles grand public qui ont atteint plus de 150 000 téléchargements combinés sur iOS, Android et Windows. Ces applications démontrent le cycle de vie complet du développement de produits mobiles : recherche de marché, design UX, implémentation, optimisation App Store, intégration analytique, boucles de feedback utilisateur et amélioration continue.</p>
+            <p>Les capacités clés incluent les notifications push pour l'engagement utilisateur, les achats in-app avec validation des reçus, l'évolution des fonctionnalités basée sur les données, les rapports de crash et le diagnostic automatisé.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section id="portfolio">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.portfolio.title', lang)}</h2>
+        </header>
+        <p>{t('mobileapp.portfolio.subtitle', lang)}</p>
+
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossfr.png" alt="Music Boss - Chanson Française" />
+                <h4>Music Boss - Chanson Française</h4>
+                <p>Jeu de blind test pour la musique variété française</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossafro.jpg" alt="Music Boss - Afro Music" />
+                <h4>Music Boss - Afro Music</h4>
+                <p>Jeu quiz de musique africaine</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbosspop.png" alt="Music Boss - Pop Music" />
+                <h4>Music Boss - Pop Music</h4>
+                <p>Trivia de musique pop internationale</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrapfr.jpg" alt="Music Boss - Rap Français" />
+                <h4>Music Boss - Rap Français</h4>
+                <p>Blind test hip-hop français</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mjj.png" alt="Michael Jackson Playlist" />
+                <h4>Michael Jackson - The King of Pop</h4>
+                <p>Quiz complet discographie MJ</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/booba.png" alt="Booba Playlist" />
+                <h4>Booba - Official Playlist</h4>
+                <p>Application dédiée artiste rap français</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrapus.jpg" alt="Music Boss - US Rap" />
+                <h4>Music Boss - US Rap</h4>
+                <p>Jeu de musique hip-hop américain</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/stromae.png" alt="Stromae Playlist" />
+                <h4>Stromae - Official App</h4>
+                <p>Contenu exclusif artiste belge</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrnb.jpg" alt="Music Boss - R&B" />
+                <h4>Music Boss - R&B Soul</h4>
+                <p>Trivia musique R&B et Soul</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 2em;"><strong>Technologies :</strong> Xamarin.Forms, C#, .NET, architecture MVVM, stockage local SQLite, services backend Azure, streaming audio in-app, optimisation App Store pour iOS, Android et Windows.</p>
+      </div>
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.production.title', lang)}</h2>
+        </header>
+        <p>Le développement d'applications mobiles nécessite d'équilibrer les attentes des utilisateurs, les contraintes de la plateforme et les exigences commerciales. Mon approche ingénierie-first garantit que les applications ne sont pas seulement fonctionnelles, mais maintenables, performantes et prêtes à évoluer.</p>
+        <ul>
+          <li><strong>Performance Native :</strong> UX optimisée pour la plateforme avec logique métier partagée</li>
+          <li><strong>Design Offline-First :</strong> Applications robustes fonctionnant sans connectivité constante</li>
+          <li><strong>Sécurité & Vie Privée :</strong> Stockage sécurisé, communications chiffrées et conformité</li>
+          <li><strong>Excellence App Store :</strong> Optimisé pour la découverte, les avis et la fidélisation des utilisateurs</li>
+          <li><strong>Analytique & Itération :</strong> Améliorations et évolution des fonctionnalités pilotées par les données</li>
+        </ul>
+        <p>Que vous ayez besoin d'une application mobile grand public, d'une solution terrain d'entreprise ou d'une consultation sur l'architecture cross-platform, j'apporte une expertise avérée pour livrer des applications mobiles auxquelles les utilisateurs font confiance et sur lesquelles les entreprises comptent.</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('mobileapp.production.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

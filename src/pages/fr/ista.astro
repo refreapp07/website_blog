@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('ista.meta.title', lang)}
+  description={t('ista.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/ista"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('ista.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/ista-banner.png" alt="" /></span>
+        <p>J'ai travaillé sur des systèmes d'entreprise à grande échelle et pilotés par l'IoT au cœur de la facturation, du comptage et de la gestion des immeubles. Mon rôle combinait l'ingénierie logicielle, l'architecture système et la pleine propriété des projets, souvent en étroite collaboration avec les équipes métier, comptables et terrain. J'ai contribué à la fois aux plateformes stratégiques à long terme et aux solutions opérationnelles à fort impact utilisées quotidiennement par les clients et les équipes internes.</p>
+        <p><span class="image left"><img src="/images/ista-amm.jpg" alt="" /></span>L'une des initiatives les plus impactantes fut le système AMM (Automatic Meter Management). Cette plateforme IoT à grande échelle collectait les données de consommation de milliers de compteurs via des passerelles radio et des réseaux GSM/GPRS et les synchronisait avec le système de facturation. J'ai conçu l'architecture de la base de données, implémenté les services web et les couches de synchronisation, installé et configuré les serveurs, et assuré la fiabilité de bout en bout. Alors que des déploiements similaires dans d'autres pays prenaient environ deux ans, l'implémentation belge a atteint la production en seulement huit mois — le déploiement le plus rapide du groupe.</p>
+        <br/>
+        <p>J'ai joué un rôle clé dans les plateformes web d'entreprise, notamment ISITOP2020, une application web pour la navigation et l'analyse de portefeuilles immobiliers. Ces projets impliquaient la conception de services backend évolutifs, d'interfaces web modernes et d'accès aux données sécurisé utilisant les technologies .NET. Je me suis constamment concentré sur la performance, la maintenabilité et la clarté pour les utilisateurs finaux et les administrateurs.</p>
+        <p>Pour soutenir les opérations et la qualité des données, j'ai également développé des outils internes tels qu'une console AMM web pour les équipes administratives et des composants de data mining capables de détecter des patterns de consommation anormaux ou des problèmes de dispositifs. Ces solutions ont aidé à prévenir les erreurs de facturation et ont amélioré la maintenance proactive.</p>
+        <p><span class="image left"><img src="/images/ista edi.png" alt="" /></span>Une partie significative de mon travail s'est concentrée sur les systèmes pilotés par les données et les algorithmes. J'ai développé des plateformes de gestion des erreurs qui détectaient automatiquement les anomalies des dispositifs, réduisant l'intervention manuelle et améliorant la fiabilité. J'ai également conçu et livré des solutions EDI (Electronic Data Interchange) qui fournissaient aux clients des données de facturation et de facturation via des APIs et des fichiers structurés.</p>
+        <p>Au-delà du développement, j'ai fréquemment agi comme chef de projet et facilitateur. J'étais responsable des intégrations ERP et PDA, de la conception d'architecture de données, de la formation des techniciens terrain et du personnel administratif, de la rédaction de documentation et de la coordination des tests, de la validation et de la vérification.</p>
+        <p>J'ai modernisé des plateformes critiques. J'ai dirigé la migration de l'authentification et de la gestion des utilisateurs vers Keycloak, mis à niveau les applications .NET Framework legacy, et contribué au portail web NextGen construit avec .NET moderne et Blazor. J'ai également soutenu la transition vers des outils CI/CD standardisés et cloud-natifs, notamment Azure DevOps, les workflows basés sur Git, la containerisation et les déploiements automatisés.</p>
+      </div>
+    </section>
+    <section id="two">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('ista.techStack', lang)}</h2>
+        </header>
+        <h3>Langages &amp; Frameworks</h3>
+        <ul>
+          <li>C#</li>
+          <li>.NET Framework (4.7)</li>
+          <li>.NET Core / .NET 5 / .NET 6 / .NET 8</li>
+          <li>ASP.NET</li>
+          <li>ASP.NET Core</li>
+          <li>Blazor (Server &amp; WebAssembly)</li>
+          <li>WCF</li>
+          <li>Entity Framework</li>
+          <li>Entity Framework Core</li>
+          <li>Minimal APIs</li>
+        </ul>
+        <h3>Frontend &amp; UI</h3>
+        <ul>
+          <li>Blazor</li>
+          <li>ASP.NET MVC</li>
+          <li>ASP.NET WebForms</li>
+          <li>WPF</li>
+          <li>Telerik UI</li>
+          <li>HTML / CSS / JavaScript</li>
+        </ul>
+        <h3>APIs &amp; Intégration</h3>
+        <ul>
+          <li>REST Web APIs</li>
+          <li>WCF Services</li>
+          <li>SOAP / WSDL</li>
+          <li>EDI (Electronic Data Interchange)</li>
+          <li>ActiveMQ</li>
+          <li>Background Services</li>
+          <li>Hangfire</li>
+        </ul>
+        <h3>Base de données</h3>
+        <ul>
+          <li>SQL Server (2008 R2 → 2019)</li>
+          <li>Oracle</li>
+          <li>T-SQL</li>
+          <li>PL/SQL</li>
+          <li>ADO.NET</li>
+          <li>Data mining &amp; analytique</li>
+          <li>Formats OpenDocument</li>
+        </ul>
+        <h3>IoT</h3>
+        <ul>
+          <li>Automatic Meter Management (AMM)</li>
+          <li>Communication GSM / GPRS</li>
+          <li>Passerelles radio</li>
+          <li>Détection d'erreurs &amp; algorithmes</li>
+          <li>Intégration PDA (paramétrage des compteurs)</li>
+        </ul>
+        <h3>Cloud, DevOps &amp; Infrastructure</h3>
+        <ul>
+          <li>Azure</li>
+          <li>Azure DevOps</li>
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Pipelines CI/CD (YAML)</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>ArgoCD</li>
+          <li>JFrog</li>
+          <li>SonarQube</li>
+          <li>Azure Key Vault</li>
+          <li>Windows Server (2008 R2)</li>
+        </ul>
+        <h3>Sécurité &amp; Identité</h3>
+        <ul>
+          <li>Keycloak</li>
+          <li>Authentification &amp; autorisation</li>
+          <li>Migration utilisateurs</li>
+          <li>Sécurisation des APIs</li>
+        </ul>
+        <h3>Tests &amp; Qualité</h3>
+        <ul>
+          <li>xUnit</li>
+          <li>Validation &amp; Vérification</li>
+        </ul>
+        <h3>Outils &amp; Collaboration</h3>
+        <ul>
+          <li>Jira</li>
+          <li>Confluence</li>
+          <li>GitHub Copilot</li>
+          <li>ChatGPT</li>
+          <li>Claude</li>
+          <li>Bolt</li>
+        </ul>
+        <h3>Documentation</h3>
+        <ul>
+          <li>Word</li>
+          <li>PowerPoint</li>
+          <li>Excel</li>
+          <li>Visio</li>
+          <li>Open XML</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('artificial.meta.title', lang)}
+  description={t('artificial.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/artificial"
+>
+  <!-- Banner -->
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('artificial.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('artificial.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('artificial.intro.title', lang)}</h2>
+        </header>
+        <p>{t('artificial.intro.p1', lang)}</p>
+        <p>{t('artificial.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/ai-comingsoon.webp" alt="Automatisation des workflows" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>RentMate</h3></header>
+            <p>{t('common.comingSoon', lang)}</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/ai-comingsoon.webp" alt="Automatisation des workflows" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>SyndicAI</h3></header>
+            <p>{t('common.comingSoon', lang)}</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/ia-syndic.jpg" alt="Outils IA & Assistants" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Outils IA Modernes & Assistants</h3></header>
+            <p>Intégration professionnelle d'outils de développement IA de pointe pour accélérer la livraison logicielle et améliorer la qualité du code. J'exploite ChatGPT, Claude, Claude Code, GitHub Copilot, Google AI Studio et Google Labs comme parties intégrantes de mon workflow d'ingénierie — non seulement comme assistants, mais comme des multiplicateurs de force pour la résolution de problèmes, la génération de code et la conception de systèmes.</p>
+            <p>Ces outils permettent un prototypage rapide, une complétion de code intelligente, des scénarios de test automatisés et des capacités de débogage sophistiquées qui améliorent considérablement la vélocité de développement tout en maintenant des standards de qualité élevés.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/ia-n8n.jpg" alt="Orchestration de Workflows" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Orchestration de Workflows Intelligents</h3></header>
+            <p>Construction de workflows automatisés complexes utilisant n8n et des plateformes d'orchestration similaires pour connecter des systèmes disparates, automatiser les processus de prise de décision et intégrer les capacités IA de manière transparente dans l'infrastructure existante.</p>
+            <p>De l'orchestration d'API à l'automatisation des pipelines de données, je conçois des workflows maintenables, évolutifs et production-ready — garantissant que l'automatisation offre une valeur commerciale réelle, et non de simples démonstrations techniques.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/ai-npu-bg.jpg" alt="IA Locale & Edge" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Déploiement IA Local & Edge</h3></header>
+            <p>Au-delà de l'IA cloud, je travaille activement avec des configurations IA locales et edge, rapprochant l'intelligence de la source de données et permettant des applications IA respectueuses de la vie privée et à faible latence.</p>
+            <ul>
+              <li><strong>LLM Hugging Face :</strong> Installation et exécution locale de grands modèles de langage pour un contrôle et une confidentialité maximaux</li>
+              <li><strong>Matériel NPU :</strong> Déploiement de modèles sur des unités de traitement neural spécialisées pour des performances optimales</li>
+              <li><strong>Raspberry Pi 5 Edge AI :</strong> Expérimentation et optimisation des déploiements LLM sur des appareils edge</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/ia-mcp.jpg" alt="Model Context Protocol" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Solutions Model Context Protocol (MCP)</h3></header>
+            <p>Conception et implémentation de solutions basées sur le Model Context Protocol (MCP) permettant une interaction structurée entre les modèles IA, les outils et les workflows. Cette approche offre un comportement IA plus fiable, contrôlable et auditables dans les applications réelles.</p>
+            <p>Le MCP permet une orchestration sophistiquée des capacités IA, permettant la prise de décision contextuelle, l'utilisation d'outils et le raisonnement multi-étapes tout en maintenant la transparence et le contrôle des opérations IA.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Philosophy -->
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('artificial.philosophy.title', lang)}</h2>
+        </header>
+        <p>{t('artificial.philosophy.p1', lang)}</p>
+        <p>{t('artificial.philosophy.p2', lang)}</p>
+        <ul class="actions">
+          <li><a href="/fr/#contact" class="button next">{t('artificial.philosophy.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

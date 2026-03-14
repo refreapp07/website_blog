@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('home.meta.title', lang)}
+  description={t('home.meta.description', lang)}
+  keywords={t('home.meta.keywords', lang)}
+  ogTitle={t('home.meta.title', lang)}
+  ogDescription={t('home.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/"
+>
+  <!-- Banner -->
+  <section id="banner" class="major">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('home.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p>{t('home.banner.subtitle', lang)}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Tiles -->
+    <section id="one" class="tiles">
+      <article>
+        <span class="image">
+          <img src="/images/codesourcelignes.jpg" alt="Code d'ingénierie logicielle sur écran d'ordinateur" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/software`} class="link">{t('home.tiles.software.title', lang)}</a></h3>
+          <p>{t('home.tiles.software.subtitle', lang)}</p>
+        </header>
+      </article>
+      <article>
+        <span class="image">
+          <img src="/images/ia2.jpg" alt="Intelligence artificielle et apprentissage automatique" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/artificial`} class="link">{t('home.tiles.ai.title', lang)}</a></h3>
+          <p>{t('home.tiles.ai.subtitle', lang)}</p>
+        </header>
+      </article>
+      <article>
+        <span class="image">
+          <img src="/images/telecommunications.png" alt="Infrastructure réseau télécommunications" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/telecom`} class="link">{t('home.tiles.telecom.title', lang)}</a></h3>
+          <p>{t('home.tiles.telecom.subtitle', lang)}</p>
+        </header>
+      </article>
+      <article>
+        <span class="image">
+          <img src="/images/engineering.jpg" alt="Ingénierie électronique et conception de circuits" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/engineering`} class="link">{t('home.tiles.engineering.title', lang)}</a></h3>
+          <p>{t('home.tiles.engineering.subtitle', lang)}</p>
+        </header>
+      </article>
+      <article>
+        <span class="image">
+          <img src="/images/crypto.jpg" alt="Cryptomonnaie et technologie blockchain" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/crypto`} class="link">{t('home.tiles.crypto.title', lang)}</a></h3>
+          <p>{t('home.tiles.crypto.subtitle', lang)}</p>
+        </header>
+      </article>
+      <article>
+        <span class="image">
+          <img src="/images/content3.jpg" alt="Création de contenu médiatique et marketing numérique" loading="lazy" />
+        </span>
+        <header class="major">
+          <h3><a href={`/fr/media`} class="link">{t('home.tiles.media.title', lang)}</a></h3>
+          <p>{t('home.tiles.media.subtitle', lang)}</p>
+        </header>
+      </article>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="two">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('home.testimonials.title', lang)}</h2>
+        </header>
+        <p>{t('home.testimonials.subtitle', lang)}</p>
+        <div class="testimonials-carousel" aria-label="Testimonials carousel">
+          <div class="testimonials-track">
+            <article class="testimonial-card">
+              <div class="testimonial-quote">"Totally autonomous &amp; self-learning, solution-oriented and stress-resistant, he developed a.o. an automated energy metering reading solution for about a million connected data points (IoT), good for millions of data entries a day, which was never down. I can only recommend him as a senior developer, curious if all languages &amp; techniques, he is both an excellent colleague and a very good person"</div>
+              <div class="testimonial-meta">
+                <span class="testimonial-name">Xavier L.</span>
+                <span class="testimonial-role">IT Manager, Ista</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-quote">&ldquo;Thanks for your high level expertise and for being able to explain such complex cases with simplified explanation that would make them understandable by any rookie (like me). Thanks for this fruitful, productive, successful and, above all, nice and pleasant collaboration. I will definitely miss this.&rdquo;</div>
+              <div class="testimonial-meta">
+                <span class="testimonial-name">Gregory D.</span>
+                <span class="testimonial-role">IT Manager, ISTA</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-quote">&ldquo;Nous avons travaillé ensemble avec Johnny durant plusieurs années sur différentes mises en place opérationnelles. Ce que j'apprécie particulièrement chez Johnny, c'est cet équilibre d'ouverture et de détermination, sa capacité d'écoute et son sens de la responsabilité. La capacité de Johnny à jongler avec plusieurs projets est unique et fait une énorme différence dans le niveau d'une équipe et de sa productivité. Johnny a le gout du travail bien fait. Sa fiabilité et son intégrité sont de précieux atouts; en complément de son expérience professionnelle, la sensibilité qu'il a développé plus récemment font de lui un allié de choix.&rdquo;</div>
+              <div class="testimonial-meta">
+                <span class="testimonial-name">Steve C.</span>
+                <span class="testimonial-role">IT Manager, Untra-IT</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="testimonial-quote">&ldquo;As a Field Support Engineer, Johnny consistently demonstrated outstanding technical depth in complex telecom environments. Whether dealing with optical transport systems, large-scale network deployments, or critical customer incidents, he combined sharp analytical skills with remarkable calm and efficiency under pressure. What truly set Johnny apart was his ability to bridge the gap between advanced engineering teams and customers: he could diagnose intricate issues on the field, clearly explain root causes, and drive solutions to closure with professionalism and ownership. Highly autonomous, reliable, and deeply committed to service quality, Johnny was a trusted technical reference for both customers and internal teams. Any organization in the telecom sector would greatly benefit from his expertise, work ethic, and human qualities.&rdquo;</div>
+              <div class="testimonial-meta">
+                <span class="testimonial-name">Erik K.</span>
+                <span class="testimonial-role">Engineering Lead, Ciena</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

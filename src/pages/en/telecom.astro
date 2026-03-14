@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('telecom.meta.title', lang)}
+  description={t('telecom.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/telecom"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('telecom.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('telecom.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('telecom.intro.title', lang)}</h2>
+        </header>
+        <p>{t('telecom.intro.p1', lang)}</p>
+        <p>{t('telecom.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-cable.jpg" alt="Technical Support & Customer Engineering" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Technical Support & Customer Engineering</h3></header>
+            <p>Provided comprehensive technical support for Ciena DWDM equipment, both remotely and on customer sites, covering software, hardware, and network-level issues.</p>
+            <p>Acted as customer engineer at the NOC for KPN/Qwest, supporting mission-critical backbone infrastructure where downtime was not an option. This role demanded deep technical knowledge combined with exceptional communication skills and the ability to make critical decisions under pressure.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-europe.jpg" alt="Large-Scale Infrastructure Projects" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Large-Scale Infrastructure Projects</h3></header>
+            <p>Led a Europe-wide amplifier replacement project, coordinating upgrades across multiple sites and countries. This required meticulous planning, cross-team coordination, and execution under strict service availability constraints.</p>
+            <p>Optimized customer DWDM networks through software updates, upgrades, and hardware improvements, ensuring maximum performance and reliability while minimizing service disruption.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-antenna.avif" alt="Installation & Commissioning" data-position="25% 25%" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Installation, Testing & Commissioning</h3></header>
+            <p>Installed, tested, and commissioned core optical transmission equipment, including racks, ODFs, ADM cards, and transmission systems. This hands-on work provided deep understanding of physical layer constraints and optical engineering principles.</p>
+            <p>Performed network migrations, provisioning, fault analysis, and on-site troubleshooting under strict safety and availability constraints. Every action required careful planning and risk assessment to maintain service continuity.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/telecom-cisco.jpg" alt="Network Engineering & Cisco Technologies" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Network Engineering & Cisco Technologies</h3></header>
+            <p>Developed hands-on expertise with Cisco technologies, formalized through CCNA-level experience, covering IP networking, routing, switching, and troubleshooting.</p>
+            <p>Supported sales engineering activities by contributing technical expertise for customer proposals and network reports, bridging the gap between technical capabilities and business requirements.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('telecom.foundation.title', lang)}</h2>
+        </header>
+        <p>This early career background continues to influence my work today, especially in:</p>
+        <ul>
+          <li><strong>System Architecture:</strong> Understanding distributed systems and infrastructure constraints from real-world experience</li>
+          <li><strong>API & Integration Design:</strong> Designing interfaces that account for network realities and failure modes</li>
+          <li><strong>Distributed Systems:</strong> Building resilient systems that handle network partitions and latency</li>
+          <li><strong>Performance, Reliability & Observability:</strong> Prioritizing operational excellence and monitoring from the ground up</li>
+        </ul>
+        <p>It anchors my software engineering work in real-world infrastructure constraints, bridging software, networks, and operations — ensuring that solutions are not just theoretically sound, but operationally viable.</p>
+        <ul class="actions">
+          <li><a href="/en/#contact" class="button next">{t('telecom.foundation.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

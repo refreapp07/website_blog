@@ -1,0 +1,42 @@
+---
+import { t } from '../i18n/i18n.js';
+
+export interface Props {
+  lang: string;
+  logoSubtitle?: string;
+}
+
+const { lang, logoSubtitle } = Astro.props;
+
+const base = lang === 'en' ? '/en' : '/fr';
+const blogPath = '/blog';
+---
+
+<!-- Header -->
+<header id="header" class="alt">
+  <a href={`${base}/`} class="logo">
+    <strong>Kajoble</strong>
+    {logoSubtitle && <span>{logoSubtitle}</span>}
+  </a>
+  <nav>
+    <a href="#menu">{t('nav.menu', lang)}</a>
+  </nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+  <ul class="links">
+    <li><a href={`${base}/`}>{t('nav.home', lang)}</a></li>
+    <li><a href={`${base}/software`}>{t('nav.software', lang)}</a></li>
+    <li><a href={`${base}/portfolio`}>{t('nav.portfolio', lang)}</a></li>
+    <li><a href={`${blogPath}/`}>{t('nav.blog', lang)}</a></li>
+  </ul>
+  <ul class="actions stacked">
+    <li>
+      {lang === 'fr'
+        ? <a href={Astro.url.pathname.replace('/fr/', '/en/')} class="button primary fit small">EN</a>
+        : <a href={Astro.url.pathname.replace('/en/', '/fr/')} class="button primary fit small">FR</a>
+      }
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,199 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('software.meta.title', lang)}
+  description={t('software.meta.description', lang)}
+  keywords={t('software.meta.keywords', lang)}
+  ogUrl="https://kajoble.com/fr/software"
+>
+  <!-- Header override via Navbar slot not needed; Navbar handles logo subtitle -->
+
+  <!-- Banner -->
+  <section id="banner" class="style2">
+    <div class="inner">
+      <span class="image">
+        <img src="/images/pic07.jpg" alt="Espace de travail développement logiciel avec plusieurs écrans" loading="lazy" />
+      </span>
+      <header class="major">
+        <h1>{t('software.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p>{t('software.banner.subtitle', lang)}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Journey -->
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('software.journey.title', lang)}</h2>
+        </header>
+        <p>{t('software.journey.text', lang)}</p>
+      </div>
+    </section>
+
+    <!-- Spotlights -->
+    <section id="two" class="spotlights">
+
+      <section>
+        <a href="/fr/gehealthcare" class="image">
+          <img src="/images/fastlab.jpg" alt="GE Healthcare FastLab équipement laboratoire" loading="lazy" data-position="center center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.ge.title', lang)}</h3></header>
+            <p>{t('software.projects.ge.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/gehealthcare" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/ista" class="image">
+          <img src="/images/ista.jpg" alt="ISTA solutions de comptage et IoT" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.ista.title', lang)}</h3></header>
+            <p>{t('software.projects.ista.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/ista" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/lasea" class="image">
+          <img src="/images/lasea.jpg" alt="LASEA systèmes laser industriels" loading="lazy" data-position="25% 25%" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.lasea.title', lang)}</h3></header>
+            <p>{t('software.projects.lasea.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/lasea" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/portfolio" class="image">
+          <img src="/images/mobileapp.png" alt="Développement d'applications mobiles iOS et Android" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.mobile.title', lang)}</h3></header>
+            <p>{t('software.projects.mobile.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/mobileapp" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/saas" class="image">
+          <img src="/images/websitecreation.webp" alt="Développement web et solutions SaaS" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.saas.title', lang)}</h3></header>
+            <p>{t('software.projects.saas.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/saas" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/inasti" class="image">
+          <img src="/images/INASTI-logo-4.png" alt="INASTI système gouvernemental belge" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.inasti.title', lang)}</h3></header>
+            <p>{t('software.projects.inasti.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/inasti" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/elia" class="image">
+          <img src="/images/elia.png" alt="Elia gestion du réseau électrique" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.elia.title', lang)}</h3></header>
+            <p>{t('software.projects.elia.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/elia" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/inami" class="image">
+          <img src="/images/logo_INAMI_nl.png" alt="INAMI système d'inscription professionnels de santé" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.inami.title', lang)}</h3></header>
+            <p>{t('software.projects.inami.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/inami" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="/fr/ypto" class="image">
+          <img src="/images/ypto.jpg" alt="YPTO plateforme gestion ferroviaire" loading="lazy" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>{t('software.projects.ypto.title', lang)}</h3></header>
+            <p>{t('software.projects.ypto.text', lang)}</p>
+            <ul class="actions">
+              <li><a href="/fr/ypto" class="button">{t('common.learnMore', lang)}</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- About -->
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('software.about.title', lang)}</h2>
+        </header>
+        <p>{t('software.about.text', lang)}</p>
+        <ul class="actions">
+          <li><a href="/fr/portfolio" class="button next">{t('software.about.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'fr';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('inasti.meta.title', lang)}
+  description={t('inasti.meta.description', lang)}
+  ogUrl="https://kajoble.com/fr/inasti"
+>
+  <div id="main" class="alt">
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{t('inasti.title', lang)}</h1>
+        </header>
+        <span class="image main"><img src="/images/inasti-banner.png" alt="" /></span>
+        <p>Sequia, une grande plateforme logicielle gouvernementale dédiée à la gestion des carrières d'indépendants, des statuts légaux et des processus de certification.</p>
+        <p>Dans ce rôle j'ai :</p>
+        <ul>
+          <li>Dirigé l'équipe logicielle dans l'amélioration et la modernisation d'une application mission-critique utilisée par les institutions publiques et les utilisateurs finaux.</li>
+          <li>Mentoré les développeurs juniors, les aidant à renforcer leur expertise C# et à devenir des contributeurs autonomes et efficaces.</li>
+          <li>Défini et géré la stratégie de tests, améliorant la fiabilité logicielle et la maintenabilité à long terme.</li>
+          <li>Conçu et implémenté une nouvelle architecture de messagerie publish-subscribe pour améliorer la scalabilité, le découplage et la robustesse du système.</li>
+          <li>Contribué au développement sur toute la stack, équilibrant les responsabilités de leadership avec la livraison technique.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

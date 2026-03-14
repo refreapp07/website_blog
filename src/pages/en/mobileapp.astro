@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/i18n.js';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('mobileapp.meta.title', lang)}
+  description={t('mobileapp.meta.description', lang)}
+  ogUrl="https://kajoble.com/en/mobileapp"
+>
+  <section id="banner" class="style2">
+    <div class="inner">
+      <header class="major">
+        <h1>{t('mobileapp.banner.title', lang)}</h1>
+      </header>
+      <div class="content">
+        <p set:html={t('mobileapp.banner.subtitle', lang)}></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="main">
+
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.intro.title', lang)}</h2>
+        </header>
+        <p>{t('mobileapp.intro.p1', lang)}</p>
+        <p>{t('mobileapp.intro.p2', lang)}</p>
+      </div>
+    </section>
+
+    <section id="two" class="spotlights">
+
+      <section>
+        <div class="image">
+          <img src="/images/mobileapp.jpg" alt="Cross-Platform Development" data-position="center center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Cross-Platform Development with Xamarin & .NET MAUI</h3></header>
+            <p>I build cross-platform mobile applications with Xamarin.Forms and .NET MAUI, maximizing code reuse while delivering native user experiences on each platform. This approach combines C# and .NET expertise with deep understanding of iOS, Android, and Windows guidelines, resulting in native apps sharing up to 95% of business logic, UI code, and test infrastructure.</p>
+            <p>The value is not just technical efficiency — it's faster time-to-market, consistent feature parity across platforms, and significantly reduced maintenance burden.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="/images/mobileapp.jpg" alt="Consumer Mobile Apps" data-position="top center" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <header class="major"><h3>Consumer Mobile Apps: 150,000+ Downloads</h3></header>
+            <p>I have built and launched consumer mobile applications that reached over 150,000 combined downloads across iOS, Android, and Windows. These apps demonstrate the complete mobile product development lifecycle: market research, UX design, implementation, App Store optimization, analytics integration, user feedback loops, and continuous improvement.</p>
+            <p>Key capabilities include push notifications for user engagement, in-app purchases with receipt validation, data-driven feature evolution, crash reporting, and automated diagnostics.</p>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section id="portfolio">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.portfolio.title', lang)}</h2>
+        </header>
+        <p>{t('mobileapp.portfolio.subtitle', lang)}</p>
+
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossfr.png" alt="Music Boss - Chanson Française" />
+                <h4>Music Boss - Chanson Française</h4>
+                <p>Blind test game for French variety music</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossafro.jpg" alt="Music Boss - Afro Music" />
+                <h4>Music Boss - Afro Music</h4>
+                <p>African music quiz game</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbosspop.png" alt="Music Boss - Pop Music" />
+                <h4>Music Boss - Pop Music</h4>
+                <p>International pop music trivia</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrapfr.jpg" alt="Music Boss - Rap Français" />
+                <h4>Music Boss - Rap Français</h4>
+                <p>French hip-hop blind test</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mjj.png" alt="Michael Jackson Playlist" />
+                <h4>Michael Jackson - The King of Pop</h4>
+                <p>Complete MJ discography quiz</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/booba.png" alt="Booba Playlist" />
+                <h4>Booba - Official Playlist</h4>
+                <p>Dedicated French rap artist application</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrapus.jpg" alt="Music Boss - US Rap" />
+                <h4>Music Boss - US Rap</h4>
+                <p>American hip-hop music game</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/stromae.png" alt="Stromae Playlist" />
+                <h4>Stromae - Official App</h4>
+                <p>Exclusive Belgian artist content</p>
+              </span>
+            </div>
+            <div class="col-4 col-12-small">
+              <span class="image fit">
+                <img src="/images/thumbs/mbossrnb.jpg" alt="Music Boss - R&B" />
+                <h4>Music Boss - R&B Soul</h4>
+                <p>R&B and Soul music trivia</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 2em;"><strong>Technologies:</strong> Xamarin.Forms, C#, .NET, MVVM architecture, SQLite local storage, Azure backend services, in-app audio streaming, App Store optimization for iOS, Android, and Windows.</p>
+      </div>
+    </section>
+
+    <section id="three">
+      <div class="inner">
+        <header class="major">
+          <h2>{t('mobileapp.production.title', lang)}</h2>
+        </header>
+        <p>Mobile application development requires balancing user expectations, platform constraints, and business requirements. My engineering-first approach ensures that apps are not just functional, but maintainable, performant, and ready to scale.</p>
+        <ul>
+          <li><strong>Native Performance:</strong> Platform-optimized UX with shared business logic</li>
+          <li><strong>Offline-First Design:</strong> Robust applications that work without constant connectivity</li>
+          <li><strong>Security & Privacy:</strong> Secure storage, encrypted communications, and compliance</li>
+          <li><strong>App Store Excellence:</strong> Optimized for discoverability, ratings, and user retention</li>
+          <li><strong>Analytics & Iteration:</strong> Data-driven improvements and feature evolution</li>
+        </ul>
+        <p>Whether you need a consumer mobile app, an enterprise field solution, or cross-platform architecture consultation, I bring proven expertise to deliver mobile applications that users trust and businesses rely on.</p>
+        <ul class="actions">
+          <li><a href="/en/#contact" class="button next">{t('mobileapp.production.cta', lang)}</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
